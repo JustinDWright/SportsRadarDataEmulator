@@ -1,0 +1,3430 @@
+{
+	"id": "caa4fb9e-12f1-4429-a160-8e6f4de1d84c",
+	"name": "NCAA Men's Division I Basketball Tournament",
+	"location": "San Antonio, TX, USA",
+	"status": "closed",
+	"league": {
+		"id": "cd4268ee-07aa-4c4d-a435-ec44ad2c76cb",
+		"name": "NCAA MEN",
+		"alias": "NCAAM"
+	},
+	"season": {
+		"id": "2c3a1230-79c9-434b-b5c7-d84c62d63c58",
+		"year": 2017,
+		"type": "PST"
+	},
+	"rounds": [
+		{
+			"id": "816d09cd-8956-4e1a-9ce1-40b8485c44f8",
+			"sequence": 1,
+			"name": "First Four",
+			"games": [],
+			"bracketed": [
+				{
+					"bracket": {
+						"id": "7fbf087b-9c6f-42c7-8d58-909cf8bbfbad",
+						"name": "Midwest Regional",
+						"location": "Omaha, NE, USA"
+					},
+					"games": [
+						{
+							"id": "2dc16d24-990d-4d8d-b33d-30eb58868929",
+							"status": "closed",
+							"title": "First Four - Game 4",
+							"coverage": "full",
+							"scheduled": "2018-03-15T01:10:00+00:00",
+							"home_points": 56,
+							"away_points": 60,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "e43e6693-1879-433e-8287-0929d4b9b375",
+								"name": "University of Dayton Arena",
+								"capacity": 13435,
+								"address": "1801 South Edwin C Moses Boulevard",
+								"city": "Dayton",
+								"state": "OH",
+								"zip": "45417",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TruTV",
+								"satellite": "246"
+							},
+							"home": {
+								"name": "Arizona State Sun Devils",
+								"alias": "ASU",
+								"id": "ad4bc983-8d2e-4e6f-a8f9-80840a786c64",
+								"seed": 11
+							},
+							"away": {
+								"name": "Syracuse Orange",
+								"alias": "SYR",
+								"id": "8cd24de1-2be8-4b77-bcfa-47be0495a5f4",
+								"seed": 11
+							}
+						}
+					]
+				},
+				{
+					"bracket": {
+						"id": "e3fc3059-90b6-42d7-8d7f-ed4a7af02047",
+						"name": "West Regional",
+						"location": "Los Angeles, CA, USA"
+					},
+					"games": [
+						{
+							"id": "defb2c14-954c-4efd-b7ff-3e60f87f02e6",
+							"status": "closed",
+							"title": "First Four - Game 3",
+							"coverage": "full",
+							"scheduled": "2018-03-14T22:40:00+00:00",
+							"home_points": 46,
+							"away_points": 64,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "e43e6693-1879-433e-8287-0929d4b9b375",
+								"name": "University of Dayton Arena",
+								"capacity": 13435,
+								"address": "1801 South Edwin C Moses Boulevard",
+								"city": "Dayton",
+								"state": "OH",
+								"zip": "45417",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TruTV",
+								"satellite": "246"
+							},
+							"home": {
+								"name": "North Carolina Central Eagles",
+								"alias": "NCCU",
+								"id": "e4c315a0-e83f-4d14-856e-34a0463059e3",
+								"seed": 16
+							},
+							"away": {
+								"name": "Texas Southern Tigers",
+								"alias": "TXSO",
+								"id": "eb157f98-0697-459c-9293-ddb162ceb28b",
+								"seed": 16
+							}
+						}
+					]
+				},
+				{
+					"bracket": {
+						"id": "f92e9a3f-85db-442b-bcb7-80068c5850e4",
+						"name": "East Regional",
+						"location": "Boston, MA, USA"
+					},
+					"games": [
+						{
+							"id": "573bf16c-8081-42f7-9d50-82886c6cdfd8",
+							"status": "closed",
+							"title": "First Four - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-13T22:40:00+00:00",
+							"home_points": 71,
+							"away_points": 61,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "e43e6693-1879-433e-8287-0929d4b9b375",
+								"name": "University of Dayton Arena",
+								"capacity": 13435,
+								"address": "1801 South Edwin C Moses Boulevard",
+								"city": "Dayton",
+								"state": "OH",
+								"zip": "45417",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TruTV",
+								"satellite": "246"
+							},
+							"home": {
+								"name": "Radford Highlanders",
+								"alias": "RAD",
+								"id": "f2cf9ba2-ac8c-4d92-8e7a-48dd88e8f40b",
+								"seed": 16
+							},
+							"away": {
+								"name": "LIU Brooklyn Blackbirds",
+								"alias": "LIU",
+								"id": "82c12e8d-7c6c-47d8-b100-3cbc190d268e",
+								"seed": 16
+							}
+						},
+						{
+							"id": "5e79b977-c1d8-4e7f-85f0-6d29ea1295b3",
+							"status": "closed",
+							"title": "First Four - Game 2",
+							"coverage": "full",
+							"scheduled": "2018-03-14T01:17:00+00:00",
+							"home_points": 58,
+							"away_points": 65,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "e43e6693-1879-433e-8287-0929d4b9b375",
+								"name": "University of Dayton Arena",
+								"capacity": 13435,
+								"address": "1801 South Edwin C Moses Boulevard",
+								"city": "Dayton",
+								"state": "OH",
+								"zip": "45417",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TruTV",
+								"satellite": "246"
+							},
+							"home": {
+								"name": "UCLA Bruins",
+								"alias": "UCLA",
+								"id": "ec0d6b67-4b16-4b50-92b2-1a651dae6b0f",
+								"seed": 11
+							},
+							"away": {
+								"name": "St. Bonaventure Bonnies",
+								"alias": "SBON",
+								"id": "22d90601-19d4-461b-a901-924d12f116ed",
+								"seed": 11
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "fa15efe6-e8c1-445e-9632-8f8bb7708865",
+			"sequence": 2,
+			"name": "First Round",
+			"games": [],
+			"bracketed": [
+				{
+					"bracket": {
+						"id": "f92e9a3f-85db-442b-bcb7-80068c5850e4",
+						"name": "East Regional",
+						"location": "Boston, MA, USA"
+					},
+					"games": [
+						{
+							"id": "56be3bd2-640a-47e6-acde-b5344778a36d",
+							"status": "closed",
+							"title": "East Regional - First Round - Game 7",
+							"coverage": "full",
+							"scheduled": "2018-03-16T19:19:00+00:00",
+							"home_points": 62,
+							"away_points": 79,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "5a9ddefc-2267-4fd1-8d6e-0f82163ce8bd",
+								"name": "Little Caesars Arena",
+								"capacity": 21000,
+								"address": "2645 Woodward Avenue",
+								"city": "Detroit",
+								"state": "MI",
+								"zip": "48201",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TruTV",
+								"satellite": "246"
+							},
+							"home": {
+								"name": "Arkansas Razorbacks",
+								"alias": "ARK",
+								"id": "c70c23c4-ab09-4797-a1af-792c848ab17f",
+								"seed": 7
+							},
+							"away": {
+								"name": "Butler Bulldogs",
+								"alias": "BUT",
+								"id": "bdb7d7a4-45f8-4bf3-ab85-15488c451494",
+								"seed": 10
+							}
+						},
+						{
+							"id": "2d7d88c4-cbd8-4c0d-8f73-a80ba84ee96e",
+							"status": "closed",
+							"title": "East Regional - First Round - Game 2",
+							"coverage": "full",
+							"scheduled": "2018-03-16T01:26:00+00:00",
+							"home_points": 83,
+							"away_points": 86,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "1ae1aa64-71c1-43e0-b040-d02501071ba2",
+								"name": "PPG Paints Arena",
+								"capacity": 19758,
+								"address": "1001 Fifth Avenue",
+								"city": "Pittsburgh",
+								"state": "PA",
+								"zip": "15219",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TNT",
+								"satellite": "245"
+							},
+							"home": {
+								"name": "Virginia Tech Hokies",
+								"alias": "VT",
+								"id": "324ccccc-575b-4b82-acb0-fbb8e68da13b",
+								"seed": 8
+							},
+							"away": {
+								"name": "Alabama Crimson Tide",
+								"alias": "ALA",
+								"id": "c2104cdc-c83d-40d2-a3cd-df986e29f5d3",
+								"seed": 9
+							}
+						},
+						{
+							"id": "2cd8f36a-0c08-49f3-a8e1-ab764467027f",
+							"status": "closed",
+							"title": "East Regional - First Round - Game 3",
+							"coverage": "full",
+							"scheduled": "2018-03-16T20:19:00+00:00",
+							"home_points": 85,
+							"away_points": 68,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "79da0063-8ef0-4c77-ac98-26e724b0c2f9",
+								"name": "Viejas Arena at Aztec Bowl",
+								"capacity": 12414,
+								"address": "5500 Canyon Crest Drive",
+								"city": "San Diego",
+								"state": "CA",
+								"zip": "92182",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TNT",
+								"satellite": "245"
+							},
+							"home": {
+								"name": "West Virginia Mountaineers",
+								"alias": "WVU",
+								"id": "f770d3a2-221c-49ce-9c7a-680f7417fe9e",
+								"seed": 5
+							},
+							"away": {
+								"name": "Murray State Racers",
+								"alias": "MURR",
+								"id": "77a69fb0-1355-4342-ac09-b4cc7949d95e",
+								"seed": 12
+							}
+						},
+						{
+							"id": "5ea02056-7aa8-48aa-b2a8-722ddae8e989",
+							"status": "closed",
+							"title": "East Regional - First Round - Game 8",
+							"coverage": "full",
+							"scheduled": "2018-03-16T16:40:00+00:00",
+							"home_points": 74,
+							"away_points": 48,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "5a9ddefc-2267-4fd1-8d6e-0f82163ce8bd",
+								"name": "Little Caesars Arena",
+								"capacity": 21000,
+								"address": "2645 Woodward Avenue",
+								"city": "Detroit",
+								"state": "MI",
+								"zip": "48201",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TruTV",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Purdue Boilermakers",
+								"alias": "PUR",
+								"id": "12d7f888-675b-459f-9099-a38f771d8a95",
+								"seed": 2
+							},
+							"away": {
+								"name": "Cal State Fullerton Titans",
+								"alias": "CSF",
+								"id": "c009914b-3303-4dee-b915-978aa48a31d0",
+								"seed": 15
+							}
+						},
+						{
+							"id": "8ec019da-e0c2-4ed4-b7e8-cf53f2d3940f",
+							"status": "closed",
+							"title": "East Regional - First Round - Game 4",
+							"coverage": "full",
+							"scheduled": "2018-03-16T17:30:00+00:00",
+							"home_points": 75,
+							"away_points": 81,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "79da0063-8ef0-4c77-ac98-26e724b0c2f9",
+								"name": "Viejas Arena at Aztec Bowl",
+								"capacity": 12414,
+								"address": "5500 Canyon Crest Drive",
+								"city": "San Diego",
+								"state": "CA",
+								"zip": "92182",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TNT",
+								"satellite": "245"
+							},
+							"home": {
+								"name": "Wichita State Shockers",
+								"alias": "WICH",
+								"id": "f38b58de-3273-4723-a78b-2f918e9aa2d5",
+								"seed": 4
+							},
+							"away": {
+								"name": "Marshall Thundering Herd",
+								"alias": "MRSH",
+								"id": "58d8baa3-7624-4b21-a47f-a23df2bf8859",
+								"seed": 13
+							}
+						},
+						{
+							"id": "6a918bed-5499-4253-b13b-772a988f4dd7",
+							"status": "closed",
+							"title": "East Regional - First Round - Game 5",
+							"coverage": "full",
+							"scheduled": "2018-03-16T02:16:00+00:00",
+							"home_points": 77,
+							"away_points": 62,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "401ba62f-19b5-5bfc-84d6-021772943311",
+								"name": "American Airlines Center",
+								"capacity": 19200,
+								"address": "2500 Victory Ave.",
+								"city": "Dallas",
+								"state": "TX",
+								"zip": "75219",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TruTV",
+								"satellite": "246"
+							},
+							"home": {
+								"name": "Florida Gators",
+								"alias": "FLA",
+								"id": "912f8837-1d81-4ef9-a576-a21f271d4c64",
+								"seed": 6
+							},
+							"away": {
+								"name": "St. Bonaventure Bonnies",
+								"alias": "SBON",
+								"id": "22d90601-19d4-461b-a901-924d12f116ed",
+								"seed": 11,
+								"source": {
+									"id": "5e79b977-c1d8-4e7f-85f0-6d29ea1295b3",
+									"title": "First Four - Game 2",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "ec0d6b67-4b16-4b50-92b2-1a651dae6b0f",
+									"away_team": "22d90601-19d4-461b-a901-924d12f116ed",
+									"scheduled": "2018-03-14T01:17:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "95b6dd1b-2ae9-4483-bd6b-88533ca72fa1",
+							"status": "closed",
+							"title": "East Regional - First Round - Game 6",
+							"coverage": "full",
+							"scheduled": "2018-03-15T23:27:00+00:00",
+							"home_points": 70,
+							"away_points": 60,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "401ba62f-19b5-5bfc-84d6-021772943311",
+								"name": "American Airlines Center",
+								"capacity": 19200,
+								"address": "2500 Victory Ave.",
+								"city": "Dallas",
+								"state": "TX",
+								"zip": "75219",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TruTV",
+								"satellite": "246"
+							},
+							"home": {
+								"name": "Texas Tech Red Raiders",
+								"alias": "TTU",
+								"id": "f8c705b7-87d3-411a-9c8b-5124daab0469",
+								"seed": 3
+							},
+							"away": {
+								"name": "Stephen F. Austin Lumberjacks",
+								"alias": "SFA",
+								"id": "5ef64f01-86ae-4553-9834-c79cc0859eaf",
+								"seed": 14
+							}
+						},
+						{
+							"id": "5f332d64-0e93-42a3-ba9c-fe0c254b9898",
+							"status": "closed",
+							"title": "East Regional - First Round - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-15T22:50:00+00:00",
+							"home_points": 87,
+							"away_points": 61,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "1ae1aa64-71c1-43e0-b040-d02501071ba2",
+								"name": "PPG Paints Arena",
+								"capacity": 19758,
+								"address": "1001 Fifth Avenue",
+								"city": "Pittsburgh",
+								"state": "PA",
+								"zip": "15219",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TNT",
+								"satellite": "245"
+							},
+							"home": {
+								"name": "Villanova Wildcats",
+								"alias": "VILL",
+								"id": "4383eb6a-7fd8-4ff2-94c5-43c933121e88",
+								"seed": 1
+							},
+							"away": {
+								"name": "Radford Highlanders",
+								"alias": "RAD",
+								"id": "f2cf9ba2-ac8c-4d92-8e7a-48dd88e8f40b",
+								"seed": 16,
+								"source": {
+									"id": "573bf16c-8081-42f7-9d50-82886c6cdfd8",
+									"title": "First Four - Game 1",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "f2cf9ba2-ac8c-4d92-8e7a-48dd88e8f40b",
+									"away_team": "82c12e8d-7c6c-47d8-b100-3cbc190d268e",
+									"scheduled": "2018-03-13T22:40:00+00:00",
+									"outcome": "win"
+								}
+							}
+						}
+					]
+				},
+				{
+					"bracket": {
+						"id": "e3fc3059-90b6-42d7-8d7f-ed4a7af02047",
+						"name": "West Regional",
+						"location": "Los Angeles, CA, USA"
+					},
+					"games": [
+						{
+							"id": "9d0805ed-e706-4867-a519-7d2517c780a4",
+							"status": "closed",
+							"title": "West Regional - First Round - Game 3",
+							"coverage": "full",
+							"scheduled": "2018-03-15T20:10:00+00:00",
+							"home_points": 81,
+							"away_points": 73,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "4df95e97-ba45-49d0-b8b2-e7e4a49e3f91",
+								"name": "Taco Bell Arena",
+								"capacity": 12480,
+								"address": "1910 University Dr",
+								"city": "Boise",
+								"state": "ID",
+								"zip": "83725",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TNT",
+								"satellite": "245"
+							},
+							"home": {
+								"name": "Ohio State Buckeyes",
+								"alias": "OSU",
+								"id": "857462b3-0ab6-4d26-9669-10ca354e382b",
+								"seed": 5
+							},
+							"away": {
+								"name": "South Dakota State Jackrabbits",
+								"alias": "SDST",
+								"id": "6ef40534-5fad-4755-84de-7dcbd645d1f0",
+								"seed": 12
+							}
+						},
+						{
+							"id": "d59d764a-5a80-48a4-8603-b9d2e721842f",
+							"status": "closed",
+							"title": "West Regional - First Round - Game 4",
+							"coverage": "full",
+							"scheduled": "2018-03-15T17:30:00+00:00",
+							"home_points": 68,
+							"away_points": 64,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "4df95e97-ba45-49d0-b8b2-e7e4a49e3f91",
+								"name": "Taco Bell Arena",
+								"capacity": 12480,
+								"address": "1910 University Dr",
+								"city": "Boise",
+								"state": "ID",
+								"zip": "83725",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TNT",
+								"satellite": "245"
+							},
+							"home": {
+								"name": "Gonzaga Bulldogs",
+								"alias": "GONZ",
+								"id": "2f4d21f8-6d5f-48a5-abca-52a30583871a",
+								"seed": 4
+							},
+							"away": {
+								"name": "UNC Greensboro Spartans",
+								"alias": "UNCG",
+								"id": "612f7f66-1de1-4d42-b842-9a508daab911",
+								"seed": 13
+							}
+						},
+						{
+							"id": "99bafab3-15a0-4caf-98c0-86fddd0a4ef0",
+							"status": "closed",
+							"title": "West Regional - First Round - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-16T23:45:00+00:00",
+							"home_points": 102,
+							"away_points": 83,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "86391a81-152e-456d-aa0c-a09d9889dbd9",
+								"name": "Bridgestone Arena",
+								"capacity": 19395,
+								"address": "501 Broadway",
+								"city": "Nashville",
+								"state": "TN",
+								"zip": "37203",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Xavier Musketeers",
+								"alias": "XAV",
+								"id": "0d8a328f-20ce-410b-bed1-15fc01308aaf",
+								"seed": 1
+							},
+							"away": {
+								"name": "Texas Southern Tigers",
+								"alias": "TXSO",
+								"id": "eb157f98-0697-459c-9293-ddb162ceb28b",
+								"seed": 16,
+								"source": {
+									"id": "defb2c14-954c-4efd-b7ff-3e60f87f02e6",
+									"title": "First Four - Game 3",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "e4c315a0-e83f-4d14-856e-34a0463059e3",
+									"away_team": "eb157f98-0697-459c-9293-ddb162ceb28b",
+									"scheduled": "2018-03-14T22:40:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "fa348aaa-f3c9-4757-8bb6-fb0f12c671f9",
+							"status": "closed",
+							"title": "West Regional - First Round - Game 7",
+							"coverage": "full",
+							"scheduled": "2018-03-16T16:15:00+00:00",
+							"home_points": 73,
+							"away_points": 69,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+								"name": "Spectrum Center",
+								"capacity": 19077,
+								"address": "330 E. Trade St.",
+								"city": "Charlotte",
+								"state": "NC",
+								"zip": "28202",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Texas A&M Aggies",
+								"alias": "TXAM",
+								"id": "ef184799-d79b-49d9-a662-991eaf4044cd",
+								"seed": 7
+							},
+							"away": {
+								"name": "Providence Friars",
+								"alias": "PROV",
+								"id": "7d3b9c72-cbdd-4b64-9aa3-a5bde9b75fdc",
+								"seed": 10
+							}
+						},
+						{
+							"id": "91e20163-4d26-4c83-be95-54ec00eaa9c3",
+							"status": "closed",
+							"title": "West Regional - First Round - Game 2",
+							"coverage": "full",
+							"scheduled": "2018-03-17T02:41:00+00:00",
+							"home_points": 54,
+							"away_points": 67,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "86391a81-152e-456d-aa0c-a09d9889dbd9",
+								"name": "Bridgestone Arena",
+								"capacity": 19395,
+								"address": "501 Broadway",
+								"city": "Nashville",
+								"state": "TN",
+								"zip": "37203",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Missouri Tigers",
+								"alias": "MIZZ",
+								"id": "77ca152a-cb2f-48a5-97b2-492351250d94",
+								"seed": 8
+							},
+							"away": {
+								"name": "Florida State Seminoles",
+								"alias": "FSU",
+								"id": "d3c8a767-b6fc-45d4-a5f2-18406f2993f1",
+								"seed": 9
+							}
+						},
+						{
+							"id": "5fc15b4e-0b88-41c0-99f3-3b2d8c2291b9",
+							"status": "closed",
+							"title": "West Regional - First Round - Game 8",
+							"coverage": "full",
+							"scheduled": "2018-03-16T18:57:00+00:00",
+							"home_points": 84,
+							"away_points": 66,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+								"name": "Spectrum Center",
+								"capacity": 19077,
+								"address": "330 E. Trade St.",
+								"city": "Charlotte",
+								"state": "NC",
+								"zip": "28202",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "North Carolina Tar Heels",
+								"alias": "UNC",
+								"id": "e9ca48b2-00ba-41c0-a02b-6885a2da1ff1",
+								"seed": 2
+							},
+							"away": {
+								"name": "Lipscomb Bisons",
+								"alias": "LIP",
+								"id": "a2b8223d-40b3-4076-b5df-55655c2f8591",
+								"seed": 15
+							}
+						},
+						{
+							"id": "7beafec0-48b7-47d5-9d08-3eed75f1cf6f",
+							"status": "closed",
+							"title": "West Regional - First Round - Game 6",
+							"coverage": "full",
+							"scheduled": "2018-03-16T02:26:00+00:00",
+							"home_points": 61,
+							"away_points": 47,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "406d8635-7c82-4195-a353-75da4daf71bb",
+								"name": "Intrust Bank Arena",
+								"capacity": 15000,
+								"address": "500 East Waterman Street",
+								"city": "Wichita",
+								"state": "KS",
+								"zip": "67202",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Michigan Wolverines",
+								"alias": "MICH",
+								"id": "bdc2561d-f603-4fab-a262-f1d2af462277",
+								"seed": 3
+							},
+							"away": {
+								"name": "Montana Grizzlies",
+								"alias": "MONT",
+								"id": "e3848467-66c0-41e5-8283-02e3586d8601",
+								"seed": 14
+							}
+						},
+						{
+							"id": "be197abd-68b1-4e7d-b795-0e38aba6232a",
+							"status": "closed",
+							"title": "West Regional - First Round - Game 5",
+							"coverage": "full",
+							"scheduled": "2018-03-15T23:40:00+00:00",
+							"home_points": 67,
+							"away_points": 65,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "406d8635-7c82-4195-a353-75da4daf71bb",
+								"name": "Intrust Bank Arena",
+								"capacity": 15000,
+								"address": "500 East Waterman Street",
+								"city": "Wichita",
+								"state": "KS",
+								"zip": "67202",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Houston Cougars",
+								"alias": "HOU",
+								"id": "1f99a164-d593-4d81-85d5-0d7889d6f486",
+								"seed": 6
+							},
+							"away": {
+								"name": "San Diego State Aztecs",
+								"alias": "SDSU",
+								"id": "e6914f16-ca37-4d2e-ba26-a425910283e2",
+								"seed": 11
+							}
+						}
+					]
+				},
+				{
+					"bracket": {
+						"id": "7fbf087b-9c6f-42c7-8d58-909cf8bbfbad",
+						"name": "Midwest Regional",
+						"location": "Omaha, NE, USA"
+					},
+					"games": [
+						{
+							"id": "0d606f47-287c-4262-9e08-4f272c97ba70",
+							"status": "closed",
+							"title": "Midwest Regional - First Round - Game 7",
+							"coverage": "full",
+							"scheduled": "2018-03-15T16:15:00+00:00",
+							"home_points": 83,
+							"away_points": 78,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "1ae1aa64-71c1-43e0-b040-d02501071ba2",
+								"name": "PPG Paints Arena",
+								"capacity": 19758,
+								"address": "1001 Fifth Avenue",
+								"city": "Pittsburgh",
+								"state": "PA",
+								"zip": "15219",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Rhode Island Rams",
+								"alias": "URI",
+								"id": "7e42bca2-3cd7-4aca-aa46-f190fe5d8eb4",
+								"seed": 7
+							},
+							"away": {
+								"name": "Oklahoma Sooners",
+								"alias": "OKLA",
+								"id": "b2fda957-e15c-4fb2-8a13-6e58496f561e",
+								"seed": 10
+							}
+						},
+						{
+							"id": "988e5a4b-2376-41d0-a398-750966b9cbe9",
+							"status": "closed",
+							"title": "Midwest Regional - First Round - Game 4",
+							"coverage": "full",
+							"scheduled": "2018-03-16T23:30:00+00:00",
+							"home_points": 62,
+							"away_points": 58,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "79da0063-8ef0-4c77-ac98-26e724b0c2f9",
+								"name": "Viejas Arena at Aztec Bowl",
+								"capacity": 12414,
+								"address": "5500 Canyon Crest Drive",
+								"city": "San Diego",
+								"state": "CA",
+								"zip": "92182",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TruTV",
+								"satellite": "246"
+							},
+							"home": {
+								"name": "Auburn Tigers",
+								"alias": "AUB",
+								"id": "0c0608b3-f349-4f5e-9a10-7e6a744dd0d2",
+								"seed": 4
+							},
+							"away": {
+								"name": "Charleston Cougars",
+								"alias": "COFC",
+								"id": "8548dacb-3636-48a8-8c46-611ab0c15fc0",
+								"seed": 13
+							}
+						},
+						{
+							"id": "0742cc51-a8e4-4830-9352-d971bf68abcb",
+							"status": "closed",
+							"title": "Midwest Regional - First Round - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-15T18:00:00+00:00",
+							"home_points": 76,
+							"away_points": 60,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "406d8635-7c82-4195-a353-75da4daf71bb",
+								"name": "Intrust Bank Arena",
+								"capacity": 15000,
+								"address": "500 East Waterman Street",
+								"city": "Wichita",
+								"state": "KS",
+								"zip": "67202",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Kansas Jayhawks",
+								"alias": "KU",
+								"id": "fae4855b-1b64-4b40-a632-9ed345e1e952",
+								"seed": 1
+							},
+							"away": {
+								"name": "Pennsylvania Quakers",
+								"alias": "PENN",
+								"id": "e6c94452-1adf-4fb9-90e5-10f165c57c5a",
+								"seed": 16
+							}
+						},
+						{
+							"id": "ceeb07bc-97da-4d8e-82f7-103dcc88b888",
+							"status": "closed",
+							"title": "Midwest Regional - First Round - Game 6",
+							"coverage": "full",
+							"scheduled": "2018-03-16T23:10:00+00:00",
+							"home_points": 82,
+							"away_points": 78,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "5a9ddefc-2267-4fd1-8d6e-0f82163ce8bd",
+								"name": "Little Caesars Arena",
+								"capacity": 21000,
+								"address": "2645 Woodward Avenue",
+								"city": "Detroit",
+								"state": "MI",
+								"zip": "48201",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Michigan State Spartans",
+								"alias": "MSU",
+								"id": "a41d5a05-4c11-4171-a57e-e7a1ea325a6d",
+								"seed": 3
+							},
+							"away": {
+								"name": "Bucknell Bison",
+								"alias": "BUCK",
+								"id": "98d2123a-c7b9-4b5f-8a81-43f76d8537dc",
+								"seed": 14
+							}
+						},
+						{
+							"id": "b4072752-bdad-402e-8f8b-cd3207a909d1",
+							"status": "closed",
+							"title": "Midwest Regional - First Round - Game 8",
+							"coverage": "full",
+							"scheduled": "2018-03-15T19:12:00+00:00",
+							"home_points": 89,
+							"away_points": 67,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "1ae1aa64-71c1-43e0-b040-d02501071ba2",
+								"name": "PPG Paints Arena",
+								"capacity": 19758,
+								"address": "1001 Fifth Avenue",
+								"city": "Pittsburgh",
+								"state": "PA",
+								"zip": "15219",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Duke Blue Devils",
+								"alias": "DUKE",
+								"id": "faeb1160-5d15-4f26-99fc-c441cf21fc7f",
+								"seed": 2
+							},
+							"away": {
+								"name": "Iona Gaels",
+								"alias": "IONA",
+								"id": "255c2a87-40c0-4989-bbb9-d286aac5d28e",
+								"seed": 15
+							}
+						},
+						{
+							"id": "4cf987a4-b539-4d09-bc13-5b39a36cf85b",
+							"status": "closed",
+							"title": "Midwest Regional - First Round - Game 3",
+							"coverage": "full",
+							"scheduled": "2018-03-17T02:18:00+00:00",
+							"home_points": 79,
+							"away_points": 68,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "79da0063-8ef0-4c77-ac98-26e724b0c2f9",
+								"name": "Viejas Arena at Aztec Bowl",
+								"capacity": 12414,
+								"address": "5500 Canyon Crest Drive",
+								"city": "San Diego",
+								"state": "CA",
+								"zip": "92182",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TruTV",
+								"satellite": "246"
+							},
+							"home": {
+								"name": "Clemson Tigers",
+								"alias": "CLEM",
+								"id": "dcf5c2e7-c227-4c20-af26-715d5f859412",
+								"seed": 5
+							},
+							"away": {
+								"name": "New Mexico State Aggies",
+								"alias": "NMSU",
+								"id": "5016fe1a-9571-4d10-bf5b-b9c1b496bd57",
+								"seed": 12
+							}
+						},
+						{
+							"id": "7837c062-3720-4c87-b352-9c2e8d8ef2fc",
+							"status": "closed",
+							"title": "Midwest Regional - First Round - Game 5",
+							"coverage": "full",
+							"scheduled": "2018-03-17T01:59:00+00:00",
+							"home_points": 52,
+							"away_points": 57,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "5a9ddefc-2267-4fd1-8d6e-0f82163ce8bd",
+								"name": "Little Caesars Arena",
+								"capacity": 21000,
+								"address": "2645 Woodward Avenue",
+								"city": "Detroit",
+								"state": "MI",
+								"zip": "48201",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "TCU Horned Frogs",
+								"alias": "TCU",
+								"id": "f7fcbb6e-4a55-41ea-ba21-f763ed914467",
+								"seed": 6
+							},
+							"away": {
+								"name": "Syracuse Orange",
+								"alias": "SYR",
+								"id": "8cd24de1-2be8-4b77-bcfa-47be0495a5f4",
+								"seed": 11,
+								"source": {
+									"id": "2dc16d24-990d-4d8d-b33d-30eb58868929",
+									"title": "First Four - Game 4",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "ad4bc983-8d2e-4e6f-a8f9-80840a786c64",
+									"away_team": "8cd24de1-2be8-4b77-bcfa-47be0495a5f4",
+									"scheduled": "2018-03-15T01:10:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "af24061d-3f49-439e-86da-51444b287e40",
+							"status": "closed",
+							"title": "Midwest Regional - First Round - Game 2",
+							"coverage": "full",
+							"scheduled": "2018-03-15T20:30:00+00:00",
+							"home_points": 94,
+							"away_points": 83,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "406d8635-7c82-4195-a353-75da4daf71bb",
+								"name": "Intrust Bank Arena",
+								"capacity": 15000,
+								"address": "500 East Waterman Street",
+								"city": "Wichita",
+								"state": "KS",
+								"zip": "67202",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Seton Hall Pirates",
+								"alias": "HALL",
+								"id": "aef5e386-d8e8-460c-8014-3a2f090fd988",
+								"seed": 8
+							},
+							"away": {
+								"name": "North Carolina State Wolfpack",
+								"alias": "NCST",
+								"id": "52df1e19-b142-4a76-a439-ad68455d0581",
+								"seed": 9
+							}
+						}
+					]
+				},
+				{
+					"bracket": {
+						"id": "cbc070cb-8c75-4563-aeb3-a6f1b27d200a",
+						"name": "South Regional",
+						"location": "Atlanta, GA, USA"
+					},
+					"games": [
+						{
+							"id": "d49c613c-9cbf-4d05-a923-fb6c29b51036",
+							"status": "closed",
+							"title": "South Regional - First Round - Game 2",
+							"coverage": "full",
+							"scheduled": "2018-03-16T22:50:00+00:00",
+							"home_points": 59,
+							"away_points": 69,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+								"name": "Spectrum Center",
+								"capacity": 19077,
+								"address": "330 E. Trade St.",
+								"city": "Charlotte",
+								"state": "NC",
+								"zip": "28202",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TNT",
+								"satellite": "245"
+							},
+							"home": {
+								"name": "Creighton Bluejays",
+								"alias": "CREI",
+								"id": "7d797407-623e-476d-b299-46de4275414d",
+								"seed": 8
+							},
+							"away": {
+								"name": "Kansas State Wildcats",
+								"alias": "KSU",
+								"id": "d203f38a-a166-4258-bca2-e161b591ecfb",
+								"seed": 9
+							}
+						},
+						{
+							"id": "9b05e785-ee74-489c-b7b7-e7d6de0503b7",
+							"status": "closed",
+							"title": "South Regional - First Round - Game 4",
+							"coverage": "full",
+							"scheduled": "2018-03-16T01:52:00+00:00",
+							"home_points": 68,
+							"away_points": 89,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "4df95e97-ba45-49d0-b8b2-e7e4a49e3f91",
+								"name": "Taco Bell Arena",
+								"capacity": 12480,
+								"address": "1910 University Dr",
+								"city": "Boise",
+								"state": "ID",
+								"zip": "83725",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Arizona Wildcats",
+								"alias": "ARIZ",
+								"id": "9b166a3f-e64b-4825-bb6b-92c6f0418263",
+								"seed": 4
+							},
+							"away": {
+								"name": "Buffalo Bulls",
+								"alias": "BUFF",
+								"id": "a9f5c9a2-342c-4881-9996-5d5c05ec9bd9",
+								"seed": 13
+							}
+						},
+						{
+							"id": "019f1cba-1834-4021-b07b-454ccaf4155d",
+							"status": "closed",
+							"title": "South Regional - First Round - Game 8",
+							"coverage": "full",
+							"scheduled": "2018-03-16T18:00:00+00:00",
+							"home_points": 68,
+							"away_points": 53,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "86391a81-152e-456d-aa0c-a09d9889dbd9",
+								"name": "Bridgestone Arena",
+								"capacity": 19395,
+								"address": "501 Broadway",
+								"city": "Nashville",
+								"state": "TN",
+								"zip": "37203",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Cincinnati Bearcats",
+								"alias": "CIN",
+								"id": "a17dfc54-415f-49c3-a2e6-d6fa9db18b0a",
+								"seed": 2
+							},
+							"away": {
+								"name": "Georgia State Panthers",
+								"alias": "GAST",
+								"id": "94ea835b-8ce9-4de2-a5b1-971548fea974",
+								"seed": 15
+							}
+						},
+						{
+							"id": "4c902e78-4e0f-44b1-b40b-ffa12a2e0e9b",
+							"status": "closed",
+							"title": "South Regional - First Round - Game 5",
+							"coverage": "full",
+							"scheduled": "2018-03-15T19:17:00+00:00",
+							"home_points": 62,
+							"away_points": 64,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "401ba62f-19b5-5bfc-84d6-021772943311",
+								"name": "American Airlines Center",
+								"capacity": 19200,
+								"address": "2500 Victory Ave.",
+								"city": "Dallas",
+								"state": "TX",
+								"zip": "75219",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TruTV",
+								"satellite": "246"
+							},
+							"home": {
+								"name": "Miami (FL) Hurricanes",
+								"alias": "MIA",
+								"id": "7aec5187-cb1b-45e5-8f7d-406d766cdc73",
+								"seed": 6
+							},
+							"away": {
+								"name": "Loyola (IL) Ramblers",
+								"alias": "L-IL",
+								"id": "61a3908a-7492-4b6f-809e-12c61976bb0a",
+								"seed": 11
+							}
+						},
+						{
+							"id": "75c182ac-b7c8-401d-bb7e-2345dc32a164",
+							"status": "closed",
+							"title": "South Regional - First Round - Game 3",
+							"coverage": "full",
+							"scheduled": "2018-03-15T23:10:00+00:00",
+							"home_points": 78,
+							"away_points": 73,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "4df95e97-ba45-49d0-b8b2-e7e4a49e3f91",
+								"name": "Taco Bell Arena",
+								"capacity": 12480,
+								"address": "1910 University Dr",
+								"city": "Boise",
+								"state": "ID",
+								"zip": "83725",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Kentucky Wildcats",
+								"alias": "UK",
+								"id": "2267a1f4-68f6-418b-aaf6-2aa0c4b291f1",
+								"seed": 5
+							},
+							"away": {
+								"name": "Davidson Wildcats",
+								"alias": "DAV",
+								"id": "2920c5fa-1e86-4958-a7c4-1e97b8e201d8",
+								"seed": 12
+							}
+						},
+						{
+							"id": "49a91e9a-bf76-48d0-baa6-95d49d1121b7",
+							"status": "closed",
+							"title": "South Regional - First Round - Game 6",
+							"coverage": "full",
+							"scheduled": "2018-03-15T16:40:00+00:00",
+							"home_points": 73,
+							"away_points": 47,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "401ba62f-19b5-5bfc-84d6-021772943311",
+								"name": "American Airlines Center",
+								"capacity": 19200,
+								"address": "2500 Victory Ave.",
+								"city": "Dallas",
+								"state": "TX",
+								"zip": "75219",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TruTV",
+								"satellite": "246"
+							},
+							"home": {
+								"name": "Tennessee Volunteers",
+								"alias": "TENN",
+								"id": "b827dbdf-230f-4916-9703-3bb9004e26eb",
+								"seed": 3
+							},
+							"away": {
+								"name": "Wright State Raiders",
+								"alias": "WRST",
+								"id": "9c396fa7-c165-4599-8542-158bd0d9a199",
+								"seed": 14
+							}
+						},
+						{
+							"id": "52c7b7a6-eaf8-42c8-a353-d9beb94f5d87",
+							"status": "closed",
+							"title": "South Regional - First Round - Game 7",
+							"coverage": "full",
+							"scheduled": "2018-03-16T20:26:00+00:00",
+							"home_points": 87,
+							"away_points": 83,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "86391a81-152e-456d-aa0c-a09d9889dbd9",
+								"name": "Bridgestone Arena",
+								"capacity": 19395,
+								"address": "501 Broadway",
+								"city": "Nashville",
+								"state": "TN",
+								"zip": "37203",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Nevada Wolf Pack",
+								"alias": "NEV",
+								"id": "62a73b4a-e281-4483-a1f8-f1160a18e456",
+								"seed": 7
+							},
+							"away": {
+								"name": "Texas Longhorns",
+								"alias": "TEX",
+								"id": "6ed15092-2670-450a-99c2-61d861e87644",
+								"seed": 10
+							}
+						},
+						{
+							"id": "e4d470f7-b347-47e4-8005-bdc3baa2355a",
+							"status": "closed",
+							"title": "South Regional - First Round - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-17T01:33:00+00:00",
+							"home_points": 54,
+							"away_points": 74,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+								"name": "Spectrum Center",
+								"capacity": 19077,
+								"address": "330 E. Trade St.",
+								"city": "Charlotte",
+								"state": "NC",
+								"zip": "28202",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TNT",
+								"satellite": "245"
+							},
+							"home": {
+								"name": "Virginia Cavaliers",
+								"alias": "UVA",
+								"id": "56913910-87f7-4ad7-ae3b-5cd9fb218fd9",
+								"seed": 1
+							},
+							"away": {
+								"name": "UMBC Retrievers",
+								"alias": "UMBC",
+								"id": "32755362-6336-4dd3-ac34-6f72a6cc150b",
+								"seed": 16
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "0330adde-3d00-4b6f-a106-c8fb95e46038",
+			"sequence": 3,
+			"name": "Second Round",
+			"games": [],
+			"bracketed": [
+				{
+					"bracket": {
+						"id": "e3fc3059-90b6-42d7-8d7f-ed4a7af02047",
+						"name": "West Regional",
+						"location": "Los Angeles, CA, USA"
+					},
+					"games": [
+						{
+							"id": "4145ffc9-cb75-4d50-a3b3-95f0fac24375",
+							"status": "closed",
+							"title": "West Regional - Second Round - Game 2",
+							"coverage": "full",
+							"scheduled": "2018-03-17T23:59:00+00:00",
+							"home_points": 90,
+							"away_points": 84,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "4df95e97-ba45-49d0-b8b2-e7e4a49e3f91",
+								"name": "Taco Bell Arena",
+								"capacity": 12480,
+								"address": "1910 University Dr",
+								"city": "Boise",
+								"state": "ID",
+								"zip": "83725",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Gonzaga Bulldogs",
+								"alias": "GONZ",
+								"id": "2f4d21f8-6d5f-48a5-abca-52a30583871a",
+								"seed": 4,
+								"source": {
+									"id": "d59d764a-5a80-48a4-8603-b9d2e721842f",
+									"title": "West Regional - First Round - Game 4",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "2f4d21f8-6d5f-48a5-abca-52a30583871a",
+									"away_team": "612f7f66-1de1-4d42-b842-9a508daab911",
+									"scheduled": "2018-03-15T17:30:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Ohio State Buckeyes",
+								"alias": "OSU",
+								"id": "857462b3-0ab6-4d26-9669-10ca354e382b",
+								"seed": 5,
+								"source": {
+									"id": "9d0805ed-e706-4867-a519-7d2517c780a4",
+									"title": "West Regional - First Round - Game 3",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "857462b3-0ab6-4d26-9669-10ca354e382b",
+									"away_team": "6ef40534-5fad-4755-84de-7dcbd645d1f0",
+									"scheduled": "2018-03-15T20:10:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "2be93048-4b1d-4ef3-bef4-bdeae78b2635",
+							"status": "closed",
+							"title": "West Regional - Second Round - Game 3",
+							"coverage": "full",
+							"scheduled": "2018-03-18T01:40:00+00:00",
+							"home_points": 64,
+							"away_points": 63,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "406d8635-7c82-4195-a353-75da4daf71bb",
+								"name": "Intrust Bank Arena",
+								"capacity": 15000,
+								"address": "500 East Waterman Street",
+								"city": "Wichita",
+								"state": "KS",
+								"zip": "67202",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Michigan Wolverines",
+								"alias": "MICH",
+								"id": "bdc2561d-f603-4fab-a262-f1d2af462277",
+								"seed": 3,
+								"source": {
+									"id": "7beafec0-48b7-47d5-9d08-3eed75f1cf6f",
+									"title": "West Regional - First Round - Game 6",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "bdc2561d-f603-4fab-a262-f1d2af462277",
+									"away_team": "e3848467-66c0-41e5-8283-02e3586d8601",
+									"scheduled": "2018-03-16T02:26:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Houston Cougars",
+								"alias": "HOU",
+								"id": "1f99a164-d593-4d81-85d5-0d7889d6f486",
+								"seed": 6,
+								"source": {
+									"id": "be197abd-68b1-4e7d-b795-0e38aba6232a",
+									"title": "West Regional - First Round - Game 5",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "1f99a164-d593-4d81-85d5-0d7889d6f486",
+									"away_team": "e6914f16-ca37-4d2e-ba26-a425910283e2",
+									"scheduled": "2018-03-15T23:40:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "79ad31dc-253d-49f9-94bb-1d566e97e98e",
+							"status": "closed",
+							"title": "West Regional - Second Round - Game 4",
+							"coverage": "full",
+							"scheduled": "2018-03-18T21:20:00+00:00",
+							"home_points": 65,
+							"away_points": 86,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+								"name": "Spectrum Center",
+								"capacity": 19077,
+								"address": "330 E. Trade St.",
+								"city": "Charlotte",
+								"state": "NC",
+								"zip": "28202",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "North Carolina Tar Heels",
+								"alias": "UNC",
+								"id": "e9ca48b2-00ba-41c0-a02b-6885a2da1ff1",
+								"seed": 2,
+								"source": {
+									"id": "5fc15b4e-0b88-41c0-99f3-3b2d8c2291b9",
+									"title": "West Regional - First Round - Game 8",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "e9ca48b2-00ba-41c0-a02b-6885a2da1ff1",
+									"away_team": "a2b8223d-40b3-4076-b5df-55655c2f8591",
+									"scheduled": "2018-03-16T18:57:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Texas A&M Aggies",
+								"alias": "TXAM",
+								"id": "ef184799-d79b-49d9-a662-991eaf4044cd",
+								"seed": 7,
+								"source": {
+									"id": "fa348aaa-f3c9-4757-8bb6-fb0f12c671f9",
+									"title": "West Regional - First Round - Game 7",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "ef184799-d79b-49d9-a662-991eaf4044cd",
+									"away_team": "7d3b9c72-cbdd-4b64-9aa3-a5bde9b75fdc",
+									"scheduled": "2018-03-16T16:15:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "ceb0e501-8e33-4ca3-a84f-76aed40a4b53",
+							"status": "closed",
+							"title": "West Regional - Second Round - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-19T00:44:00+00:00",
+							"home_points": 70,
+							"away_points": 75,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "86391a81-152e-456d-aa0c-a09d9889dbd9",
+								"name": "Bridgestone Arena",
+								"capacity": 19395,
+								"address": "501 Broadway",
+								"city": "Nashville",
+								"state": "TN",
+								"zip": "37203",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TNT",
+								"satellite": "245"
+							},
+							"home": {
+								"name": "Xavier Musketeers",
+								"alias": "XAV",
+								"id": "0d8a328f-20ce-410b-bed1-15fc01308aaf",
+								"seed": 1,
+								"source": {
+									"id": "99bafab3-15a0-4caf-98c0-86fddd0a4ef0",
+									"title": "West Regional - First Round - Game 1",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "0d8a328f-20ce-410b-bed1-15fc01308aaf",
+									"away_team": "eb157f98-0697-459c-9293-ddb162ceb28b",
+									"scheduled": "2018-03-16T23:45:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Florida State Seminoles",
+								"alias": "FSU",
+								"id": "d3c8a767-b6fc-45d4-a5f2-18406f2993f1",
+								"seed": 9,
+								"source": {
+									"id": "91e20163-4d26-4c83-be95-54ec00eaa9c3",
+									"title": "West Regional - First Round - Game 2",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "77ca152a-cb2f-48a5-97b2-492351250d94",
+									"away_team": "d3c8a767-b6fc-45d4-a5f2-18406f2993f1",
+									"scheduled": "2018-03-17T02:41:00+00:00",
+									"outcome": "win"
+								}
+							}
+						}
+					]
+				},
+				{
+					"bracket": {
+						"id": "7fbf087b-9c6f-42c7-8d58-909cf8bbfbad",
+						"name": "Midwest Regional",
+						"location": "Omaha, NE, USA"
+					},
+					"games": [
+						{
+							"id": "d1c9acde-3c96-48ce-8a6b-89e1290cf81d",
+							"status": "closed",
+							"title": "Midwest Regional - Second Round - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-17T23:10:00+00:00",
+							"home_points": 83,
+							"away_points": 79,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "406d8635-7c82-4195-a353-75da4daf71bb",
+								"name": "Intrust Bank Arena",
+								"capacity": 15000,
+								"address": "500 East Waterman Street",
+								"city": "Wichita",
+								"state": "KS",
+								"zip": "67202",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Kansas Jayhawks",
+								"alias": "KU",
+								"id": "fae4855b-1b64-4b40-a632-9ed345e1e952",
+								"seed": 1,
+								"source": {
+									"id": "0742cc51-a8e4-4830-9352-d971bf68abcb",
+									"title": "Midwest Regional - First Round - Game 1",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "fae4855b-1b64-4b40-a632-9ed345e1e952",
+									"away_team": "e6c94452-1adf-4fb9-90e5-10f165c57c5a",
+									"scheduled": "2018-03-15T18:00:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Seton Hall Pirates",
+								"alias": "HALL",
+								"id": "aef5e386-d8e8-460c-8014-3a2f090fd988",
+								"seed": 8,
+								"source": {
+									"id": "af24061d-3f49-439e-86da-51444b287e40",
+									"title": "Midwest Regional - First Round - Game 2",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "aef5e386-d8e8-460c-8014-3a2f090fd988",
+									"away_team": "52df1e19-b142-4a76-a439-ad68455d0581",
+									"scheduled": "2018-03-15T20:30:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "34d47c2c-e999-4f1e-991a-eb77cc41b6fa",
+							"status": "closed",
+							"title": "Midwest Regional - Second Round - Game 3",
+							"coverage": "full",
+							"scheduled": "2018-03-18T18:55:00+00:00",
+							"home_points": 53,
+							"away_points": 55,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "5a9ddefc-2267-4fd1-8d6e-0f82163ce8bd",
+								"name": "Little Caesars Arena",
+								"capacity": 21000,
+								"address": "2645 Woodward Avenue",
+								"city": "Detroit",
+								"state": "MI",
+								"zip": "48201",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Michigan State Spartans",
+								"alias": "MSU",
+								"id": "a41d5a05-4c11-4171-a57e-e7a1ea325a6d",
+								"seed": 3,
+								"source": {
+									"id": "ceeb07bc-97da-4d8e-82f7-103dcc88b888",
+									"title": "Midwest Regional - First Round - Game 6",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "a41d5a05-4c11-4171-a57e-e7a1ea325a6d",
+									"away_team": "98d2123a-c7b9-4b5f-8a81-43f76d8537dc",
+									"scheduled": "2018-03-16T23:10:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Syracuse Orange",
+								"alias": "SYR",
+								"id": "8cd24de1-2be8-4b77-bcfa-47be0495a5f4",
+								"seed": 11,
+								"source": {
+									"id": "7837c062-3720-4c87-b352-9c2e8d8ef2fc",
+									"title": "Midwest Regional - First Round - Game 5",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "f7fcbb6e-4a55-41ea-ba21-f763ed914467",
+									"away_team": "8cd24de1-2be8-4b77-bcfa-47be0495a5f4",
+									"scheduled": "2018-03-17T01:59:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "77d5d046-e0ac-46b7-b214-8870ae83a83e",
+							"status": "closed",
+							"title": "Midwest Regional - Second Round - Game 4",
+							"coverage": "full",
+							"scheduled": "2018-03-17T18:48:00+00:00",
+							"home_points": 87,
+							"away_points": 62,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "1ae1aa64-71c1-43e0-b040-d02501071ba2",
+								"name": "PPG Paints Arena",
+								"capacity": 19758,
+								"address": "1001 Fifth Avenue",
+								"city": "Pittsburgh",
+								"state": "PA",
+								"zip": "15219",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Duke Blue Devils",
+								"alias": "DUKE",
+								"id": "faeb1160-5d15-4f26-99fc-c441cf21fc7f",
+								"seed": 2,
+								"source": {
+									"id": "b4072752-bdad-402e-8f8b-cd3207a909d1",
+									"title": "Midwest Regional - First Round - Game 8",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "faeb1160-5d15-4f26-99fc-c441cf21fc7f",
+									"away_team": "255c2a87-40c0-4989-bbb9-d286aac5d28e",
+									"scheduled": "2018-03-15T19:12:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Rhode Island Rams",
+								"alias": "URI",
+								"id": "7e42bca2-3cd7-4aca-aa46-f190fe5d8eb4",
+								"seed": 7,
+								"source": {
+									"id": "0d606f47-287c-4262-9e08-4f272c97ba70",
+									"title": "Midwest Regional - First Round - Game 7",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "7e42bca2-3cd7-4aca-aa46-f190fe5d8eb4",
+									"away_team": "b2fda957-e15c-4fb2-8a13-6e58496f561e",
+									"scheduled": "2018-03-15T16:15:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "83499b9a-51e0-47ce-ba88-6f1a6ce51235",
+							"status": "closed",
+							"title": "Midwest Regional - Second Round - Game 2",
+							"coverage": "full",
+							"scheduled": "2018-03-18T23:10:00+00:00",
+							"home_points": 53,
+							"away_points": 84,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "79da0063-8ef0-4c77-ac98-26e724b0c2f9",
+								"name": "Viejas Arena at Aztec Bowl",
+								"capacity": 12414,
+								"address": "5500 Canyon Crest Drive",
+								"city": "San Diego",
+								"state": "CA",
+								"zip": "92182",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Auburn Tigers",
+								"alias": "AUB",
+								"id": "0c0608b3-f349-4f5e-9a10-7e6a744dd0d2",
+								"seed": 4,
+								"source": {
+									"id": "988e5a4b-2376-41d0-a398-750966b9cbe9",
+									"title": "Midwest Regional - First Round - Game 4",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "0c0608b3-f349-4f5e-9a10-7e6a744dd0d2",
+									"away_team": "8548dacb-3636-48a8-8c46-611ab0c15fc0",
+									"scheduled": "2018-03-16T23:30:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Clemson Tigers",
+								"alias": "CLEM",
+								"id": "dcf5c2e7-c227-4c20-af26-715d5f859412",
+								"seed": 5,
+								"source": {
+									"id": "4cf987a4-b539-4d09-bc13-5b39a36cf85b",
+									"title": "Midwest Regional - First Round - Game 3",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "dcf5c2e7-c227-4c20-af26-715d5f859412",
+									"away_team": "5016fe1a-9571-4d10-bf5b-b9c1b496bd57",
+									"scheduled": "2018-03-17T02:18:00+00:00",
+									"outcome": "win"
+								}
+							}
+						}
+					]
+				},
+				{
+					"bracket": {
+						"id": "f92e9a3f-85db-442b-bcb7-80068c5850e4",
+						"name": "East Regional",
+						"location": "Boston, MA, USA"
+					},
+					"games": [
+						{
+							"id": "542fc53d-8e7b-4384-8dbf-b4322642cc90",
+							"status": "closed",
+							"title": "East Regional - Second Round - Game 3",
+							"coverage": "full",
+							"scheduled": "2018-03-18T00:49:00+00:00",
+							"home_points": 69,
+							"away_points": 66,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "401ba62f-19b5-5bfc-84d6-021772943311",
+								"name": "American Airlines Center",
+								"capacity": 19200,
+								"address": "2500 Victory Ave.",
+								"city": "Dallas",
+								"state": "TX",
+								"zip": "75219",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TNT",
+								"satellite": "245"
+							},
+							"home": {
+								"name": "Texas Tech Red Raiders",
+								"alias": "TTU",
+								"id": "f8c705b7-87d3-411a-9c8b-5124daab0469",
+								"seed": 3,
+								"source": {
+									"id": "95b6dd1b-2ae9-4483-bd6b-88533ca72fa1",
+									"title": "East Regional - First Round - Game 6",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "f8c705b7-87d3-411a-9c8b-5124daab0469",
+									"away_team": "5ef64f01-86ae-4553-9834-c79cc0859eaf",
+									"scheduled": "2018-03-15T23:27:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Florida Gators",
+								"alias": "FLA",
+								"id": "912f8837-1d81-4ef9-a576-a21f271d4c64",
+								"seed": 6,
+								"source": {
+									"id": "6a918bed-5499-4253-b13b-772a988f4dd7",
+									"title": "East Regional - First Round - Game 5",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "912f8837-1d81-4ef9-a576-a21f271d4c64",
+									"away_team": "22d90601-19d4-461b-a901-924d12f116ed",
+									"scheduled": "2018-03-16T02:16:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "09b1b8e6-aa36-4461-a295-8697ad20cd33",
+							"status": "closed",
+							"title": "East Regional - Second Round - Game 4",
+							"coverage": "full",
+							"scheduled": "2018-03-18T16:10:00+00:00",
+							"home_points": 76,
+							"away_points": 73,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "5a9ddefc-2267-4fd1-8d6e-0f82163ce8bd",
+								"name": "Little Caesars Arena",
+								"capacity": 21000,
+								"address": "2645 Woodward Avenue",
+								"city": "Detroit",
+								"state": "MI",
+								"zip": "48201",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Purdue Boilermakers",
+								"alias": "PUR",
+								"id": "12d7f888-675b-459f-9099-a38f771d8a95",
+								"seed": 2,
+								"source": {
+									"id": "5ea02056-7aa8-48aa-b2a8-722ddae8e989",
+									"title": "East Regional - First Round - Game 8",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "12d7f888-675b-459f-9099-a38f771d8a95",
+									"away_team": "c009914b-3303-4dee-b915-978aa48a31d0",
+									"scheduled": "2018-03-16T16:40:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Butler Bulldogs",
+								"alias": "BUT",
+								"id": "bdb7d7a4-45f8-4bf3-ab85-15488c451494",
+								"seed": 10,
+								"source": {
+									"id": "56be3bd2-640a-47e6-acde-b5344778a36d",
+									"title": "East Regional - First Round - Game 7",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "c70c23c4-ab09-4797-a1af-792c848ab17f",
+									"away_team": "bdb7d7a4-45f8-4bf3-ab85-15488c451494",
+									"scheduled": "2018-03-16T19:19:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "0e3ae99a-2d9f-4928-b8c4-6207a9a0a19f",
+							"status": "closed",
+							"title": "East Regional - Second Round - Game 2",
+							"coverage": "full",
+							"scheduled": "2018-03-19T01:50:00+00:00",
+							"home_points": 94,
+							"away_points": 71,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "79da0063-8ef0-4c77-ac98-26e724b0c2f9",
+								"name": "Viejas Arena at Aztec Bowl",
+								"capacity": 12414,
+								"address": "5500 Canyon Crest Drive",
+								"city": "San Diego",
+								"state": "CA",
+								"zip": "92182",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "West Virginia Mountaineers",
+								"alias": "WVU",
+								"id": "f770d3a2-221c-49ce-9c7a-680f7417fe9e",
+								"seed": 5,
+								"source": {
+									"id": "2cd8f36a-0c08-49f3-a8e1-ab764467027f",
+									"title": "East Regional - First Round - Game 3",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "f770d3a2-221c-49ce-9c7a-680f7417fe9e",
+									"away_team": "77a69fb0-1355-4342-ac09-b4cc7949d95e",
+									"scheduled": "2018-03-16T20:19:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Marshall Thundering Herd",
+								"alias": "MRSH",
+								"id": "58d8baa3-7624-4b21-a47f-a23df2bf8859",
+								"seed": 13,
+								"source": {
+									"id": "8ec019da-e0c2-4ed4-b7e8-cf53f2d3940f",
+									"title": "East Regional - First Round - Game 4",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "f38b58de-3273-4723-a78b-2f918e9aa2d5",
+									"away_team": "58d8baa3-7624-4b21-a47f-a23df2bf8859",
+									"scheduled": "2018-03-16T17:30:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "03e5aa0c-82a0-4b16-ae4e-8970ffb7993d",
+							"status": "closed",
+							"title": "East Regional - Second Round - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-17T16:10:00+00:00",
+							"home_points": 81,
+							"away_points": 58,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "1ae1aa64-71c1-43e0-b040-d02501071ba2",
+								"name": "PPG Paints Arena",
+								"capacity": 19758,
+								"address": "1001 Fifth Avenue",
+								"city": "Pittsburgh",
+								"state": "PA",
+								"zip": "15219",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Villanova Wildcats",
+								"alias": "VILL",
+								"id": "4383eb6a-7fd8-4ff2-94c5-43c933121e88",
+								"seed": 1,
+								"source": {
+									"id": "5f332d64-0e93-42a3-ba9c-fe0c254b9898",
+									"title": "East Regional - First Round - Game 1",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "4383eb6a-7fd8-4ff2-94c5-43c933121e88",
+									"away_team": "f2cf9ba2-ac8c-4d92-8e7a-48dd88e8f40b",
+									"scheduled": "2018-03-15T22:50:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Alabama Crimson Tide",
+								"alias": "ALA",
+								"id": "c2104cdc-c83d-40d2-a3cd-df986e29f5d3",
+								"seed": 9,
+								"source": {
+									"id": "2d7d88c4-cbd8-4c0d-8f73-a80ba84ee96e",
+									"title": "East Regional - First Round - Game 2",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "324ccccc-575b-4b82-acb0-fbb8e68da13b",
+									"away_team": "c2104cdc-c83d-40d2-a3cd-df986e29f5d3",
+									"scheduled": "2018-03-16T01:26:00+00:00",
+									"outcome": "win"
+								}
+							}
+						}
+					]
+				},
+				{
+					"bracket": {
+						"id": "cbc070cb-8c75-4563-aeb3-a6f1b27d200a",
+						"name": "South Regional",
+						"location": "Atlanta, GA, USA"
+					},
+					"games": [
+						{
+							"id": "d057b7da-9e70-4227-b53f-530aeb48f8a4",
+							"status": "closed",
+							"title": "South Regional - Second Round - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-18T23:59:00+00:00",
+							"home_points": 50,
+							"away_points": 43,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+								"name": "Spectrum Center",
+								"capacity": 19077,
+								"address": "330 E. Trade St.",
+								"city": "Charlotte",
+								"state": "NC",
+								"zip": "28202",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TruTV",
+								"satellite": "246"
+							},
+							"home": {
+								"name": "Kansas State Wildcats",
+								"alias": "KSU",
+								"id": "d203f38a-a166-4258-bca2-e161b591ecfb",
+								"seed": 9,
+								"source": {
+									"id": "d49c613c-9cbf-4d05-a923-fb6c29b51036",
+									"title": "South Regional - First Round - Game 2",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "7d797407-623e-476d-b299-46de4275414d",
+									"away_team": "d203f38a-a166-4258-bca2-e161b591ecfb",
+									"scheduled": "2018-03-16T22:50:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "UMBC Retrievers",
+								"alias": "UMBC",
+								"id": "32755362-6336-4dd3-ac34-6f72a6cc150b",
+								"seed": 16,
+								"source": {
+									"id": "e4d470f7-b347-47e4-8005-bdc3baa2355a",
+									"title": "South Regional - First Round - Game 1",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "56913910-87f7-4ad7-ae3b-5cd9fb218fd9",
+									"away_team": "32755362-6336-4dd3-ac34-6f72a6cc150b",
+									"scheduled": "2018-03-17T01:33:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "ac8e5ed1-1afc-4ef3-98cd-12548b512958",
+							"status": "closed",
+							"title": "South Regional - Second Round - Game 3",
+							"coverage": "full",
+							"scheduled": "2018-03-17T22:10:00+00:00",
+							"home_points": 62,
+							"away_points": 63,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "401ba62f-19b5-5bfc-84d6-021772943311",
+								"name": "American Airlines Center",
+								"capacity": 19200,
+								"address": "2500 Victory Ave.",
+								"city": "Dallas",
+								"state": "TX",
+								"zip": "75219",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TNT",
+								"satellite": "245"
+							},
+							"home": {
+								"name": "Tennessee Volunteers",
+								"alias": "TENN",
+								"id": "b827dbdf-230f-4916-9703-3bb9004e26eb",
+								"seed": 3,
+								"source": {
+									"id": "49a91e9a-bf76-48d0-baa6-95d49d1121b7",
+									"title": "South Regional - First Round - Game 6",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "b827dbdf-230f-4916-9703-3bb9004e26eb",
+									"away_team": "9c396fa7-c165-4599-8542-158bd0d9a199",
+									"scheduled": "2018-03-15T16:40:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Loyola (IL) Ramblers",
+								"alias": "L-IL",
+								"id": "61a3908a-7492-4b6f-809e-12c61976bb0a",
+								"seed": 11,
+								"source": {
+									"id": "4c902e78-4e0f-44b1-b40b-ffa12a2e0e9b",
+									"title": "South Regional - First Round - Game 5",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "7aec5187-cb1b-45e5-8f7d-406d766cdc73",
+									"away_team": "61a3908a-7492-4b6f-809e-12c61976bb0a",
+									"scheduled": "2018-03-15T19:17:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "f28a7022-3773-4c59-959c-26ea78cce129",
+							"status": "closed",
+							"title": "South Regional - Second Round - Game 4",
+							"coverage": "full",
+							"scheduled": "2018-03-18T22:10:00+00:00",
+							"home_points": 73,
+							"away_points": 75,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "86391a81-152e-456d-aa0c-a09d9889dbd9",
+								"name": "Bridgestone Arena",
+								"capacity": 19395,
+								"address": "501 Broadway",
+								"city": "Nashville",
+								"state": "TN",
+								"zip": "37203",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TNT",
+								"satellite": "245"
+							},
+							"home": {
+								"name": "Cincinnati Bearcats",
+								"alias": "CIN",
+								"id": "a17dfc54-415f-49c3-a2e6-d6fa9db18b0a",
+								"seed": 2,
+								"source": {
+									"id": "019f1cba-1834-4021-b07b-454ccaf4155d",
+									"title": "South Regional - First Round - Game 8",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "a17dfc54-415f-49c3-a2e6-d6fa9db18b0a",
+									"away_team": "94ea835b-8ce9-4de2-a5b1-971548fea974",
+									"scheduled": "2018-03-16T18:00:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Nevada Wolf Pack",
+								"alias": "NEV",
+								"id": "62a73b4a-e281-4483-a1f8-f1160a18e456",
+								"seed": 7,
+								"source": {
+									"id": "52c7b7a6-eaf8-42c8-a353-d9beb94f5d87",
+									"title": "South Regional - First Round - Game 7",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "62a73b4a-e281-4483-a1f8-f1160a18e456",
+									"away_team": "6ed15092-2670-450a-99c2-61d861e87644",
+									"scheduled": "2018-03-16T20:26:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "f1b7c7f5-0ab2-426e-ac1a-35945986e00a",
+							"status": "closed",
+							"title": "South Regional - Second Round - Game 2",
+							"coverage": "full",
+							"scheduled": "2018-03-17T21:15:00+00:00",
+							"home_points": 95,
+							"away_points": 75,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "4df95e97-ba45-49d0-b8b2-e7e4a49e3f91",
+								"name": "Taco Bell Arena",
+								"capacity": 12480,
+								"address": "1910 University Dr",
+								"city": "Boise",
+								"state": "ID",
+								"zip": "83725",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Kentucky Wildcats",
+								"alias": "UK",
+								"id": "2267a1f4-68f6-418b-aaf6-2aa0c4b291f1",
+								"seed": 5,
+								"source": {
+									"id": "75c182ac-b7c8-401d-bb7e-2345dc32a164",
+									"title": "South Regional - First Round - Game 3",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "2267a1f4-68f6-418b-aaf6-2aa0c4b291f1",
+									"away_team": "2920c5fa-1e86-4958-a7c4-1e97b8e201d8",
+									"scheduled": "2018-03-15T23:10:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Buffalo Bulls",
+								"alias": "BUFF",
+								"id": "a9f5c9a2-342c-4881-9996-5d5c05ec9bd9",
+								"seed": 13,
+								"source": {
+									"id": "9b05e785-ee74-489c-b7b7-e7d6de0503b7",
+									"title": "South Regional - First Round - Game 4",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "9b166a3f-e64b-4825-bb6b-92c6f0418263",
+									"away_team": "a9f5c9a2-342c-4881-9996-5d5c05ec9bd9",
+									"scheduled": "2018-03-16T01:52:00+00:00",
+									"outcome": "win"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "c4be1df0-9277-4cab-91f6-27a84bcd7776",
+			"sequence": 4,
+			"name": "Sweet 16",
+			"games": [],
+			"bracketed": [
+				{
+					"bracket": {
+						"id": "f92e9a3f-85db-442b-bcb7-80068c5850e4",
+						"name": "East Regional",
+						"location": "Boston, MA, USA"
+					},
+					"games": [
+						{
+							"id": "2646a5c9-7862-45c3-afb2-c7acd9493209",
+							"status": "closed",
+							"title": "East Regional - Sweet 16 - Game 2",
+							"coverage": "full",
+							"scheduled": "2018-03-24T02:26:00+00:00",
+							"home_points": 65,
+							"away_points": 78,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "7d69b080-91ca-53c9-9302-45c1a72c5549",
+								"name": "TD Garden",
+								"capacity": 18624,
+								"address": "100 Legends Way",
+								"city": "Boston",
+								"state": "MA",
+								"zip": "02114",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Purdue Boilermakers",
+								"alias": "PUR",
+								"id": "12d7f888-675b-459f-9099-a38f771d8a95",
+								"seed": 2,
+								"source": {
+									"id": "09b1b8e6-aa36-4461-a295-8697ad20cd33",
+									"title": "East Regional - Second Round - Game 4",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "12d7f888-675b-459f-9099-a38f771d8a95",
+									"away_team": "bdb7d7a4-45f8-4bf3-ab85-15488c451494",
+									"scheduled": "2018-03-18T16:10:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Texas Tech Red Raiders",
+								"alias": "TTU",
+								"id": "f8c705b7-87d3-411a-9c8b-5124daab0469",
+								"seed": 3,
+								"source": {
+									"id": "542fc53d-8e7b-4384-8dbf-b4322642cc90",
+									"title": "East Regional - Second Round - Game 3",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "f8c705b7-87d3-411a-9c8b-5124daab0469",
+									"away_team": "912f8837-1d81-4ef9-a576-a21f271d4c64",
+									"scheduled": "2018-03-18T00:49:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "0948192b-aea1-4c97-9db8-7ea069618c77",
+							"status": "closed",
+							"title": "East Regional - Sweet 16 - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-23T23:27:00+00:00",
+							"home_points": 90,
+							"away_points": 78,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "7d69b080-91ca-53c9-9302-45c1a72c5549",
+								"name": "TD Garden",
+								"capacity": 18624,
+								"address": "100 Legends Way",
+								"city": "Boston",
+								"state": "MA",
+								"zip": "02114",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Villanova Wildcats",
+								"alias": "VILL",
+								"id": "4383eb6a-7fd8-4ff2-94c5-43c933121e88",
+								"seed": 1,
+								"source": {
+									"id": "03e5aa0c-82a0-4b16-ae4e-8970ffb7993d",
+									"title": "East Regional - Second Round - Game 1",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "4383eb6a-7fd8-4ff2-94c5-43c933121e88",
+									"away_team": "c2104cdc-c83d-40d2-a3cd-df986e29f5d3",
+									"scheduled": "2018-03-17T16:10:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "West Virginia Mountaineers",
+								"alias": "WVU",
+								"id": "f770d3a2-221c-49ce-9c7a-680f7417fe9e",
+								"seed": 5,
+								"source": {
+									"id": "0e3ae99a-2d9f-4928-b8c4-6207a9a0a19f",
+									"title": "East Regional - Second Round - Game 2",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "f770d3a2-221c-49ce-9c7a-680f7417fe9e",
+									"away_team": "58d8baa3-7624-4b21-a47f-a23df2bf8859",
+									"scheduled": "2018-03-19T01:50:00+00:00",
+									"outcome": "win"
+								}
+							}
+						}
+					]
+				},
+				{
+					"bracket": {
+						"id": "7fbf087b-9c6f-42c7-8d58-909cf8bbfbad",
+						"name": "Midwest Regional",
+						"location": "Omaha, NE, USA"
+					},
+					"games": [
+						{
+							"id": "ad6da0ef-10d4-4bc2-9604-ef7b9e07712c",
+							"status": "closed",
+							"title": "Midwest Regional - Sweet 16 - Game 2",
+							"coverage": "full",
+							"scheduled": "2018-03-24T02:00:00+00:00",
+							"home_points": 69,
+							"away_points": 65,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "41b29fbb-906a-4aca-b261-6a816ca96428",
+								"name": "CenturyLink Center",
+								"capacity": 18320,
+								"address": "455 North 10th Street",
+								"city": "Omaha",
+								"state": "NE",
+								"zip": "68102",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Duke Blue Devils",
+								"alias": "DUKE",
+								"id": "faeb1160-5d15-4f26-99fc-c441cf21fc7f",
+								"seed": 2,
+								"source": {
+									"id": "77d5d046-e0ac-46b7-b214-8870ae83a83e",
+									"title": "Midwest Regional - Second Round - Game 4",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "faeb1160-5d15-4f26-99fc-c441cf21fc7f",
+									"away_team": "7e42bca2-3cd7-4aca-aa46-f190fe5d8eb4",
+									"scheduled": "2018-03-17T18:48:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Syracuse Orange",
+								"alias": "SYR",
+								"id": "8cd24de1-2be8-4b77-bcfa-47be0495a5f4",
+								"seed": 11,
+								"source": {
+									"id": "34d47c2c-e999-4f1e-991a-eb77cc41b6fa",
+									"title": "Midwest Regional - Second Round - Game 3",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "a41d5a05-4c11-4171-a57e-e7a1ea325a6d",
+									"away_team": "8cd24de1-2be8-4b77-bcfa-47be0495a5f4",
+									"scheduled": "2018-03-18T18:55:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "529cd9d0-54f4-4c46-950c-856b4bc5195f",
+							"status": "closed",
+							"title": "Midwest Regional - Sweet 16 - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-23T23:07:00+00:00",
+							"home_points": 80,
+							"away_points": 76,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "41b29fbb-906a-4aca-b261-6a816ca96428",
+								"name": "CenturyLink Center",
+								"capacity": 18320,
+								"address": "455 North 10th Street",
+								"city": "Omaha",
+								"state": "NE",
+								"zip": "68102",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Kansas Jayhawks",
+								"alias": "KU",
+								"id": "fae4855b-1b64-4b40-a632-9ed345e1e952",
+								"seed": 1,
+								"source": {
+									"id": "d1c9acde-3c96-48ce-8a6b-89e1290cf81d",
+									"title": "Midwest Regional - Second Round - Game 1",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "fae4855b-1b64-4b40-a632-9ed345e1e952",
+									"away_team": "aef5e386-d8e8-460c-8014-3a2f090fd988",
+									"scheduled": "2018-03-17T23:10:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Clemson Tigers",
+								"alias": "CLEM",
+								"id": "dcf5c2e7-c227-4c20-af26-715d5f859412",
+								"seed": 5,
+								"source": {
+									"id": "83499b9a-51e0-47ce-ba88-6f1a6ce51235",
+									"title": "Midwest Regional - Second Round - Game 2",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "0c0608b3-f349-4f5e-9a10-7e6a744dd0d2",
+									"away_team": "dcf5c2e7-c227-4c20-af26-715d5f859412",
+									"scheduled": "2018-03-18T23:10:00+00:00",
+									"outcome": "win"
+								}
+							}
+						}
+					]
+				},
+				{
+					"bracket": {
+						"id": "e3fc3059-90b6-42d7-8d7f-ed4a7af02047",
+						"name": "West Regional",
+						"location": "Los Angeles, CA, USA"
+					},
+					"games": [
+						{
+							"id": "1c2f707f-6e69-4de6-9a02-2cdecb538eac",
+							"status": "closed",
+							"title": "West Regional - Sweet 16 - Game 2",
+							"coverage": "full",
+							"scheduled": "2018-03-22T23:37:00+00:00",
+							"home_points": 99,
+							"away_points": 72,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+								"name": "Staples Center",
+								"capacity": 19060,
+								"address": "1111 S. Figueroa St.",
+								"city": "Los Angeles",
+								"state": "CA",
+								"zip": "90015",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Michigan Wolverines",
+								"alias": "MICH",
+								"id": "bdc2561d-f603-4fab-a262-f1d2af462277",
+								"seed": 3,
+								"source": {
+									"id": "2be93048-4b1d-4ef3-bef4-bdeae78b2635",
+									"title": "West Regional - Second Round - Game 3",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "bdc2561d-f603-4fab-a262-f1d2af462277",
+									"away_team": "1f99a164-d593-4d81-85d5-0d7889d6f486",
+									"scheduled": "2018-03-18T01:40:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Texas A&M Aggies",
+								"alias": "TXAM",
+								"id": "ef184799-d79b-49d9-a662-991eaf4044cd",
+								"seed": 7,
+								"source": {
+									"id": "79ad31dc-253d-49f9-94bb-1d566e97e98e",
+									"title": "West Regional - Second Round - Game 4",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "e9ca48b2-00ba-41c0-a02b-6885a2da1ff1",
+									"away_team": "ef184799-d79b-49d9-a662-991eaf4044cd",
+									"scheduled": "2018-03-18T21:20:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "07184cd1-804d-410e-9cc1-5ecfff00cf60",
+							"status": "closed",
+							"title": "West Regional - Sweet 16 - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-23T02:06:00+00:00",
+							"home_points": 60,
+							"away_points": 75,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+								"name": "Staples Center",
+								"capacity": 19060,
+								"address": "1111 S. Figueroa St.",
+								"city": "Los Angeles",
+								"state": "CA",
+								"zip": "90015",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Gonzaga Bulldogs",
+								"alias": "GONZ",
+								"id": "2f4d21f8-6d5f-48a5-abca-52a30583871a",
+								"seed": 4,
+								"source": {
+									"id": "4145ffc9-cb75-4d50-a3b3-95f0fac24375",
+									"title": "West Regional - Second Round - Game 2",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "2f4d21f8-6d5f-48a5-abca-52a30583871a",
+									"away_team": "857462b3-0ab6-4d26-9669-10ca354e382b",
+									"scheduled": "2018-03-17T23:59:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Florida State Seminoles",
+								"alias": "FSU",
+								"id": "d3c8a767-b6fc-45d4-a5f2-18406f2993f1",
+								"seed": 9,
+								"source": {
+									"id": "ceb0e501-8e33-4ca3-a84f-76aed40a4b53",
+									"title": "West Regional - Second Round - Game 1",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "0d8a328f-20ce-410b-bed1-15fc01308aaf",
+									"away_team": "d3c8a767-b6fc-45d4-a5f2-18406f2993f1",
+									"scheduled": "2018-03-19T00:44:00+00:00",
+									"outcome": "win"
+								}
+							}
+						}
+					]
+				},
+				{
+					"bracket": {
+						"id": "cbc070cb-8c75-4563-aeb3-a6f1b27d200a",
+						"name": "South Regional",
+						"location": "Atlanta, GA, USA"
+					},
+					"games": [
+						{
+							"id": "d3d72c04-865f-4914-bd28-f9a6779bdfd2",
+							"status": "closed",
+							"title": "South Regional - Sweet 16 - Game 2",
+							"coverage": "full",
+							"scheduled": "2018-03-22T23:07:00+00:00",
+							"home_points": 68,
+							"away_points": 69,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+								"name": "Philips Arena",
+								"capacity": 19049,
+								"address": "One Philips Drive",
+								"city": "Atlanta",
+								"state": "GA",
+								"zip": "30303",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Nevada Wolf Pack",
+								"alias": "NEV",
+								"id": "62a73b4a-e281-4483-a1f8-f1160a18e456",
+								"seed": 7,
+								"source": {
+									"id": "f28a7022-3773-4c59-959c-26ea78cce129",
+									"title": "South Regional - Second Round - Game 4",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "a17dfc54-415f-49c3-a2e6-d6fa9db18b0a",
+									"away_team": "62a73b4a-e281-4483-a1f8-f1160a18e456",
+									"scheduled": "2018-03-18T22:10:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Loyola (IL) Ramblers",
+								"alias": "L-IL",
+								"id": "61a3908a-7492-4b6f-809e-12c61976bb0a",
+								"seed": 11,
+								"source": {
+									"id": "ac8e5ed1-1afc-4ef3-98cd-12548b512958",
+									"title": "South Regional - Second Round - Game 3",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "b827dbdf-230f-4916-9703-3bb9004e26eb",
+									"away_team": "61a3908a-7492-4b6f-809e-12c61976bb0a",
+									"scheduled": "2018-03-17T22:10:00+00:00",
+									"outcome": "win"
+								}
+							}
+						},
+						{
+							"id": "02d22be8-8f6e-4190-8173-45c8afa3de5f",
+							"status": "closed",
+							"title": "South Regional - Sweet 16 - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-23T01:45:00+00:00",
+							"home_points": 58,
+							"away_points": 61,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+								"name": "Philips Arena",
+								"capacity": 19049,
+								"address": "One Philips Drive",
+								"city": "Atlanta",
+								"state": "GA",
+								"zip": "30303",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Kentucky Wildcats",
+								"alias": "UK",
+								"id": "2267a1f4-68f6-418b-aaf6-2aa0c4b291f1",
+								"seed": 5,
+								"source": {
+									"id": "f1b7c7f5-0ab2-426e-ac1a-35945986e00a",
+									"title": "South Regional - Second Round - Game 2",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "2267a1f4-68f6-418b-aaf6-2aa0c4b291f1",
+									"away_team": "a9f5c9a2-342c-4881-9996-5d5c05ec9bd9",
+									"scheduled": "2018-03-17T21:15:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Kansas State Wildcats",
+								"alias": "KSU",
+								"id": "d203f38a-a166-4258-bca2-e161b591ecfb",
+								"seed": 9,
+								"source": {
+									"id": "d057b7da-9e70-4227-b53f-530aeb48f8a4",
+									"title": "South Regional - Second Round - Game 1",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "d203f38a-a166-4258-bca2-e161b591ecfb",
+									"away_team": "32755362-6336-4dd3-ac34-6f72a6cc150b",
+									"scheduled": "2018-03-18T23:59:00+00:00",
+									"outcome": "win"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "7f5cc2cb-c4fb-4f4c-ae41-76033960d277",
+			"sequence": 5,
+			"name": "Elite Eight",
+			"games": [],
+			"bracketed": [
+				{
+					"bracket": {
+						"id": "e3fc3059-90b6-42d7-8d7f-ed4a7af02047",
+						"name": "West Regional",
+						"location": "Los Angeles, CA, USA"
+					},
+					"games": [
+						{
+							"id": "947fb2b8-ad8b-462d-95ad-ec870412be9a",
+							"status": "closed",
+							"title": "West Regional - Elite Eight - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-25T00:49:00+00:00",
+							"home_points": 58,
+							"away_points": 54,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+								"name": "Staples Center",
+								"capacity": 19060,
+								"address": "1111 S. Figueroa St.",
+								"city": "Los Angeles",
+								"state": "CA",
+								"zip": "90015",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Michigan Wolverines",
+								"alias": "MICH",
+								"id": "bdc2561d-f603-4fab-a262-f1d2af462277",
+								"seed": 3,
+								"source": {
+									"id": "1c2f707f-6e69-4de6-9a02-2cdecb538eac",
+									"title": "West Regional - Sweet 16 - Game 2",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "bdc2561d-f603-4fab-a262-f1d2af462277",
+									"away_team": "ef184799-d79b-49d9-a662-991eaf4044cd",
+									"scheduled": "2018-03-22T23:37:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Florida State Seminoles",
+								"alias": "FSU",
+								"id": "d3c8a767-b6fc-45d4-a5f2-18406f2993f1",
+								"seed": 9,
+								"source": {
+									"id": "07184cd1-804d-410e-9cc1-5ecfff00cf60",
+									"title": "West Regional - Sweet 16 - Game 1",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "2f4d21f8-6d5f-48a5-abca-52a30583871a",
+									"away_team": "d3c8a767-b6fc-45d4-a5f2-18406f2993f1",
+									"scheduled": "2018-03-23T02:06:00+00:00",
+									"outcome": "win"
+								}
+							}
+						}
+					]
+				},
+				{
+					"bracket": {
+						"id": "7fbf087b-9c6f-42c7-8d58-909cf8bbfbad",
+						"name": "Midwest Regional",
+						"location": "Omaha, NE, USA"
+					},
+					"games": [
+						{
+							"id": "58f3db47-235e-4c4d-94eb-206c09a7e2e4",
+							"status": "closed",
+							"title": "Midwest Regional - Elite Eight - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-25T21:05:00+00:00",
+							"home_points": 85,
+							"away_points": 81,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "41b29fbb-906a-4aca-b261-6a816ca96428",
+								"name": "CenturyLink Center",
+								"capacity": 18320,
+								"address": "455 North 10th Street",
+								"city": "Omaha",
+								"state": "NE",
+								"zip": "68102",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Kansas Jayhawks",
+								"alias": "KU",
+								"id": "fae4855b-1b64-4b40-a632-9ed345e1e952",
+								"seed": 1,
+								"source": {
+									"id": "529cd9d0-54f4-4c46-950c-856b4bc5195f",
+									"title": "Midwest Regional - Sweet 16 - Game 1",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "fae4855b-1b64-4b40-a632-9ed345e1e952",
+									"away_team": "dcf5c2e7-c227-4c20-af26-715d5f859412",
+									"scheduled": "2018-03-23T23:07:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Duke Blue Devils",
+								"alias": "DUKE",
+								"id": "faeb1160-5d15-4f26-99fc-c441cf21fc7f",
+								"seed": 2,
+								"source": {
+									"id": "ad6da0ef-10d4-4bc2-9604-ef7b9e07712c",
+									"title": "Midwest Regional - Sweet 16 - Game 2",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "faeb1160-5d15-4f26-99fc-c441cf21fc7f",
+									"away_team": "8cd24de1-2be8-4b77-bcfa-47be0495a5f4",
+									"scheduled": "2018-03-24T02:00:00+00:00",
+									"outcome": "win"
+								}
+							}
+						}
+					]
+				},
+				{
+					"bracket": {
+						"id": "f92e9a3f-85db-442b-bcb7-80068c5850e4",
+						"name": "East Regional",
+						"location": "Boston, MA, USA"
+					},
+					"games": [
+						{
+							"id": "7e5d987d-7623-4048-9e89-1f7a3d35c7ad",
+							"status": "closed",
+							"title": "East Regional - Elite Eight - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-25T18:20:00+00:00",
+							"home_points": 71,
+							"away_points": 59,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "7d69b080-91ca-53c9-9302-45c1a72c5549",
+								"name": "TD Garden",
+								"capacity": 18624,
+								"address": "100 Legends Way",
+								"city": "Boston",
+								"state": "MA",
+								"zip": "02114",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "CBS"
+							},
+							"home": {
+								"name": "Villanova Wildcats",
+								"alias": "VILL",
+								"id": "4383eb6a-7fd8-4ff2-94c5-43c933121e88",
+								"seed": 1,
+								"source": {
+									"id": "0948192b-aea1-4c97-9db8-7ea069618c77",
+									"title": "East Regional - Sweet 16 - Game 1",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "4383eb6a-7fd8-4ff2-94c5-43c933121e88",
+									"away_team": "f770d3a2-221c-49ce-9c7a-680f7417fe9e",
+									"scheduled": "2018-03-23T23:27:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Texas Tech Red Raiders",
+								"alias": "TTU",
+								"id": "f8c705b7-87d3-411a-9c8b-5124daab0469",
+								"seed": 3,
+								"source": {
+									"id": "2646a5c9-7862-45c3-afb2-c7acd9493209",
+									"title": "East Regional - Sweet 16 - Game 2",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "12d7f888-675b-459f-9099-a38f771d8a95",
+									"away_team": "f8c705b7-87d3-411a-9c8b-5124daab0469",
+									"scheduled": "2018-03-24T02:26:00+00:00",
+									"outcome": "win"
+								}
+							}
+						}
+					]
+				},
+				{
+					"bracket": {
+						"id": "cbc070cb-8c75-4563-aeb3-a6f1b27d200a",
+						"name": "South Regional",
+						"location": "Atlanta, GA, USA"
+					},
+					"games": [
+						{
+							"id": "db626521-110e-443b-83a8-00ae1aaa5a28",
+							"status": "closed",
+							"title": "South Regional - Elite Eight - Game 1",
+							"coverage": "full",
+							"scheduled": "2018-03-24T22:09:00+00:00",
+							"home_points": 62,
+							"away_points": 78,
+							"neutral_site": true,
+							"conference_game": false,
+							"track_on_court": true,
+							"venue": {
+								"id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+								"name": "Philips Arena",
+								"capacity": 19049,
+								"address": "One Philips Drive",
+								"city": "Atlanta",
+								"state": "GA",
+								"zip": "30303",
+								"country": "USA"
+							},
+							"broadcast": {
+								"network": "TBS",
+								"satellite": "247"
+							},
+							"home": {
+								"name": "Kansas State Wildcats",
+								"alias": "KSU",
+								"id": "d203f38a-a166-4258-bca2-e161b591ecfb",
+								"seed": 9,
+								"source": {
+									"id": "02d22be8-8f6e-4190-8173-45c8afa3de5f",
+									"title": "South Regional - Sweet 16 - Game 1",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "2267a1f4-68f6-418b-aaf6-2aa0c4b291f1",
+									"away_team": "d203f38a-a166-4258-bca2-e161b591ecfb",
+									"scheduled": "2018-03-23T01:45:00+00:00",
+									"outcome": "win"
+								}
+							},
+							"away": {
+								"name": "Loyola (IL) Ramblers",
+								"alias": "L-IL",
+								"id": "61a3908a-7492-4b6f-809e-12c61976bb0a",
+								"seed": 11,
+								"source": {
+									"id": "d3d72c04-865f-4914-bd28-f9a6779bdfd2",
+									"title": "South Regional - Sweet 16 - Game 2",
+									"status": "closed",
+									"coverage": "full",
+									"home_team": "62a73b4a-e281-4483-a1f8-f1160a18e456",
+									"away_team": "61a3908a-7492-4b6f-809e-12c61976bb0a",
+									"scheduled": "2018-03-22T23:07:00+00:00",
+									"outcome": "win"
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ab27f287-f2ba-4f98-b9cb-23999f8a3917",
+			"sequence": 6,
+			"name": "Final Four",
+			"games": [
+				{
+					"id": "6f8fc2de-842a-41d3-80a0-c899af47b005",
+					"status": "closed",
+					"title": "Final Four - Semifinals - Game 1",
+					"coverage": "full",
+					"scheduled": "2018-03-31T22:09:00+00:00",
+					"home_points": 69,
+					"away_points": 57,
+					"neutral_site": true,
+					"conference_game": false,
+					"track_on_court": true,
+					"venue": {
+						"id": "290e189d-f189-4c81-b4d8-8bf3221d075b",
+						"name": "Alamodome",
+						"capacity": 39500,
+						"address": "100 Montana Street",
+						"city": "San Antonio",
+						"state": "TX",
+						"zip": "78203",
+						"country": "USA"
+					},
+					"broadcast": {
+						"network": "TBS",
+						"satellite": "247"
+					},
+					"home": {
+						"name": "Michigan Wolverines",
+						"alias": "MICH",
+						"id": "bdc2561d-f603-4fab-a262-f1d2af462277",
+						"seed": 3,
+						"source": {
+							"id": "947fb2b8-ad8b-462d-95ad-ec870412be9a",
+							"title": "West Regional - Elite Eight - Game 1",
+							"status": "closed",
+							"coverage": "full",
+							"home_team": "bdc2561d-f603-4fab-a262-f1d2af462277",
+							"away_team": "d3c8a767-b6fc-45d4-a5f2-18406f2993f1",
+							"scheduled": "2018-03-25T00:49:00+00:00",
+							"outcome": "win"
+						}
+					},
+					"away": {
+						"name": "Loyola (IL) Ramblers",
+						"alias": "L-IL",
+						"id": "61a3908a-7492-4b6f-809e-12c61976bb0a",
+						"seed": 11,
+						"source": {
+							"id": "db626521-110e-443b-83a8-00ae1aaa5a28",
+							"title": "South Regional - Elite Eight - Game 1",
+							"status": "closed",
+							"coverage": "full",
+							"home_team": "d203f38a-a166-4258-bca2-e161b591ecfb",
+							"away_team": "61a3908a-7492-4b6f-809e-12c61976bb0a",
+							"scheduled": "2018-03-24T22:09:00+00:00",
+							"outcome": "win"
+						}
+					}
+				},
+				{
+					"id": "d20765db-ba7f-4278-bad6-e1604c9bc0f0",
+					"status": "closed",
+					"title": "Final Four - Semifinals - Game 2",
+					"coverage": "full",
+					"scheduled": "2018-04-01T00:49:00+00:00",
+					"home_points": 95,
+					"away_points": 79,
+					"neutral_site": true,
+					"conference_game": false,
+					"track_on_court": true,
+					"venue": {
+						"id": "290e189d-f189-4c81-b4d8-8bf3221d075b",
+						"name": "Alamodome",
+						"capacity": 39500,
+						"address": "100 Montana Street",
+						"city": "San Antonio",
+						"state": "TX",
+						"zip": "78203",
+						"country": "USA"
+					},
+					"broadcast": {
+						"network": "TBS",
+						"satellite": "247"
+					},
+					"home": {
+						"name": "Villanova Wildcats",
+						"alias": "VILL",
+						"id": "4383eb6a-7fd8-4ff2-94c5-43c933121e88",
+						"seed": 1,
+						"source": {
+							"id": "7e5d987d-7623-4048-9e89-1f7a3d35c7ad",
+							"title": "East Regional - Elite Eight - Game 1",
+							"status": "closed",
+							"coverage": "full",
+							"home_team": "4383eb6a-7fd8-4ff2-94c5-43c933121e88",
+							"away_team": "f8c705b7-87d3-411a-9c8b-5124daab0469",
+							"scheduled": "2018-03-25T18:20:00+00:00",
+							"outcome": "win"
+						}
+					},
+					"away": {
+						"name": "Kansas Jayhawks",
+						"alias": "KU",
+						"id": "fae4855b-1b64-4b40-a632-9ed345e1e952",
+						"seed": 1,
+						"source": {
+							"id": "58f3db47-235e-4c4d-94eb-206c09a7e2e4",
+							"title": "Midwest Regional - Elite Eight - Game 1",
+							"status": "closed",
+							"coverage": "full",
+							"home_team": "fae4855b-1b64-4b40-a632-9ed345e1e952",
+							"away_team": "faeb1160-5d15-4f26-99fc-c441cf21fc7f",
+							"scheduled": "2018-03-25T21:05:00+00:00",
+							"outcome": "win"
+						}
+					}
+				}
+			],
+			"bracketed": []
+		},
+		{
+			"id": "9162989f-fbf5-4a3e-8169-9380abbd8f37",
+			"sequence": 7,
+			"name": "National Championship",
+			"games": [
+				{
+					"id": "f1063e80-23c7-486b-9a5e-faa52beb2d83",
+					"status": "closed",
+					"title": "National Championship",
+					"coverage": "full",
+					"scheduled": "2018-04-03T01:20:00+00:00",
+					"home_points": 79,
+					"away_points": 62,
+					"neutral_site": true,
+					"conference_game": false,
+					"track_on_court": true,
+					"venue": {
+						"id": "290e189d-f189-4c81-b4d8-8bf3221d075b",
+						"name": "Alamodome",
+						"capacity": 39500,
+						"address": "100 Montana Street",
+						"city": "San Antonio",
+						"state": "TX",
+						"zip": "78203",
+						"country": "USA"
+					},
+					"broadcast": {
+						"network": "TBS",
+						"satellite": "247"
+					},
+					"home": {
+						"name": "Villanova Wildcats",
+						"alias": "VILL",
+						"id": "4383eb6a-7fd8-4ff2-94c5-43c933121e88",
+						"seed": 1,
+						"source": {
+							"id": "d20765db-ba7f-4278-bad6-e1604c9bc0f0",
+							"title": "Final Four - Semifinals - Game 2",
+							"status": "closed",
+							"coverage": "full",
+							"home_team": "4383eb6a-7fd8-4ff2-94c5-43c933121e88",
+							"away_team": "fae4855b-1b64-4b40-a632-9ed345e1e952",
+							"scheduled": "2018-04-01T00:49:00+00:00",
+							"outcome": "win"
+						}
+					},
+					"away": {
+						"name": "Michigan Wolverines",
+						"alias": "MICH",
+						"id": "bdc2561d-f603-4fab-a262-f1d2af462277",
+						"seed": 3,
+						"source": {
+							"id": "6f8fc2de-842a-41d3-80a0-c899af47b005",
+							"title": "Final Four - Semifinals - Game 1",
+							"status": "closed",
+							"coverage": "full",
+							"home_team": "bdc2561d-f603-4fab-a262-f1d2af462277",
+							"away_team": "61a3908a-7492-4b6f-809e-12c61976bb0a",
+							"scheduled": "2018-03-31T22:09:00+00:00",
+							"outcome": "win"
+						}
+					}
+				}
+			],
+			"bracketed": []
+		}
+	]
+}
