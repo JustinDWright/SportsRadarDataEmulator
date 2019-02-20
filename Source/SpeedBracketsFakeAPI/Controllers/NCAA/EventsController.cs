@@ -5,6 +5,7 @@ using SpeedBracketsFakeAPI.Services;
 using System;
 using System.Collections.Concurrent;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Text;
@@ -41,14 +42,61 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 		{
 			var response = httpContextAccessor.HttpContext.Response;
 
+			var homeScore = 0;
+			var awayScore = 0;
+
 			for (var gameDelta = 0; true; gameDelta++)
 			{
 				foreach (var game in gameService.CurrentGames)
 				{
-					var gameData = JsonConvert.SerializeObject(gameService.GetGameData(game.id, gameDelta));
-					gameData += Environment.NewLine;
+					if (gameDelta >= game.periods.SelectMany(p => p.events).Count())
+					{
+						return;
+					}
 
-					await response.WriteAsync(gameData, Encoding.UTF8);
+					var gameData = gameService.GetGameData(game.id, gameDelta);
+
+					switch (gameData.payload.Event.event_type)
+					{
+						case "opentip":
+							gameData.payload.game.status = "inprogress";
+							break;
+						case "half":
+							gameData.payload.game.status = "halftime";
+							break;
+						case "endperiod":
+							if (gameData.payload.Event.description == "End of 2nd Half.")
+							{
+								gameData.payload.game.status = "complete";
+							}
+							break;
+					}
+
+					var statistics = gameData.payload.Event.statistics;
+
+					if (statistics != null)
+					{
+						foreach(var stat in statistics.Where(x => x.points > 0))
+						{
+							if (stat.team.id == gameData.payload.game.home.id)
+							{
+								homeScore += stat.points;
+							}
+							else
+							{
+								awayScore += stat.points;
+							}
+						}
+					}
+
+					gameData.payload.game.home.points = homeScore;
+					gameData.payload.game.away.points = awayScore;
+					gameData.payload.game.clock = gameData.payload.Event.clock;
+
+					var serializedGameData = JsonConvert.SerializeObject(gameData);
+					serializedGameData += Environment.NewLine;
+					
+					await response.WriteAsync(serializedGameData, Encoding.UTF8);
 
 					response.Body.Flush();
 					
