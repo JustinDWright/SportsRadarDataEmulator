@@ -19,11 +19,12 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 		{
 			this.environment = environment;
 			Tournaments = new List<Tournament>();
-			LoadTournaments();
 		}
 
 		public void LoadTournaments()
 		{
+			LoadTournaments();
+
 			string filePath = Path.Combine(environment.ContentRootPath, "AppData", "NCAA", "Tournaments");
 			foreach (var file in Directory.GetFiles(filePath, "*.json"))
 			{

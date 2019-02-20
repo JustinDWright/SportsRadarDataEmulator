@@ -45,7 +45,7 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 			{
 				foreach (var game in gameService.CurrentGames)
 				{
-					var gameData = JsonConvert.SerializeObject(gameService.GetGameData(game.Key, gameDelta));
+					var gameData = JsonConvert.SerializeObject(gameService.GetGameData(game.id, gameDelta));
 
 					await response.WriteAsync(gameData, Encoding.UTF8);
 
@@ -66,7 +66,7 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 					{
 						foreach (var game in gameService.CurrentGames)
 						{
-							var gameData = JsonConvert.SerializeObject(gameService.GetGameData(game.Key, gameDelta));
+							var gameData = JsonConvert.SerializeObject(gameService.GetGameData(game.id, gameDelta));
 
 							await client.WriteAsync(gameData);
 							await client.FlushAsync();

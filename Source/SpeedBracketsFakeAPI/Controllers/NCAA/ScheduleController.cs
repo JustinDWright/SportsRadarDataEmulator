@@ -19,12 +19,13 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 		public ScheduleController(IHostingEnvironment environment)
 		{
 			this.environment = environment;
-			Schedules = new List<Schedule>();
 			LoadSchedules();
 		}
 
 		public void LoadSchedules()
 		{
+			Schedules = new List<Schedule>();
+
 			string filePath = Path.Combine(environment.ContentRootPath, "AppData", "NCAA", "Schedule");
 			foreach (var file in Directory.GetFiles(filePath, "*.json"))
 			{

@@ -12,20 +12,25 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 
 		public GamesController(GameService service)
 		{
-			this.service = service;
-			
+			this.service = service;			
 		}		
 		
 		[HttpGet("{gameId}/pbp")]
-		public RealTimeEvent Pbp(Guid gameId)
+		public RealTimeEvent Pbp(string gameId)
 		{
 			return service.GetGameData(gameId);
 		}
 
 		[HttpGet("{gameId}/pbpEvent/{gameDelta?}")]
-		public RealTimeEvent PbpEvent(Guid gameId, int gameDelta = 1)
+		public RealTimeEvent PbpEvent(string gameId, int gameDelta = 1)
 		{
 			return service.GetGameData(gameId, gameDelta);
-		}		
+		}
+
+		[HttpGet("{gameId}/statistics.json")]
+		public GameStatistic GetGameStatistics(string gameId)
+		{
+			return service.GetGameStatistics(gameId);
+		}
 	}
 }
