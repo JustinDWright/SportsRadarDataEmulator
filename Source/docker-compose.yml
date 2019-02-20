@@ -14,3 +14,8 @@ services:
       environment:
         ASPNETCORE_ENVIRONMENT: Production
         ASPNETCORE_URLS: http://+:5050
+
+networks:
+  default:
+    external:
+      name: nat
