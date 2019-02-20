@@ -146,6 +146,7 @@ namespace SpeedBracketsFakeAPI.Models
 		public string turnover_type { get; set; }
 		public int duration { get; set; }
 		public string attempt { get; set; }
+		public Period period { get; set; }
 
 		// nfl
 		public Score score { get; set; }

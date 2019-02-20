@@ -1,3 +1,5 @@
+using Newtonsoft.Json;
+
 namespace SpeedBracketsFakeAPI.Models
 {
 	public class RealTimeEvent
@@ -10,6 +12,7 @@ namespace SpeedBracketsFakeAPI.Models
 	public class RealTimeEventPayload
 	{
 		public Game game { get; set; }
-		public Event _event { get; set; }
+		[JsonProperty(PropertyName = "event")]
+		public Event Event { get; set; }
 	}
 }

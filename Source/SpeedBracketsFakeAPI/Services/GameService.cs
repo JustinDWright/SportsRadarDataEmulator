@@ -66,7 +66,7 @@ namespace SpeedBracketsFakeAPI.Services
 					.ToList();
 
 			response.payload.game = game.ToGameOnly();			
-			response.payload._event = events[gameDelta.Value];
+			response.payload.Event = events[gameDelta.Value];
 
 			return response;
 		}		
