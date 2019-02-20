@@ -33,11 +33,8 @@ namespace SpeedBracketsFakeAPI.Models
 			return new Game
 			{
 				id = this.id,
-				title = this.title,
 				status = this.status,
 				scheduled = this.scheduled,
-				clock = this.clock,
-				half = this.half,
 				home = this.home,
 				away = this.away
 			};
@@ -65,15 +62,6 @@ namespace SpeedBracketsFakeAPI.Models
 		public Venue venue { get; set; }
 		public Team home { get; set; }
 		public Team away { get; set; }
-	}
-
-	// NFL
-	public class Season
-	{
-		public string id { get; set; }
-		public int year { get; set; }
-		public string type { get; set; }
-		public string name { get; set; }
 	}
 
 	// NFL

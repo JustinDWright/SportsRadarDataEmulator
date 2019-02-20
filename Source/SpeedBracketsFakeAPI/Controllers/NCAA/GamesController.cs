@@ -26,6 +26,6 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 		public RealTimeEvent PbpEvent(Guid gameId, int gameDelta = 1)
 		{
 			return service.GetGameData(gameId, gameDelta);
-		}
+		}		
 	}
 }

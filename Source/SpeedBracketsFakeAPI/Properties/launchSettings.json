@@ -12,11 +12,11 @@
     "SpeedBracketsFakeAPI": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/v1/ncaa/games/db626521-110e-443b-83a8-00ae1aaa5a28/pbp",
+      "launchUrl": "api/v1/ncaa/tournaments/caa4fb9e-12f1-4429-a160-8e6f4de1d84c/schedule.json",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+      "applicationUrl": "http://localhost:5000"
     }
   }
 }

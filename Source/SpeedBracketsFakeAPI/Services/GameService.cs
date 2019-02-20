@@ -25,7 +25,7 @@ namespace SpeedBracketsFakeAPI.Services
 		{
 			var game = CurrentGames.FirstOrDefault(x => x.Key == gameId).Value;
 
-			var response = new RealTimeEvent { Payload = new RealTimeEventPayload { Game = game } };
+			var response = new RealTimeEvent { payload = new RealTimeEventPayload { game = game }, locale = "en" };
 
 			if (gameDelta == null)
 			{
@@ -38,8 +38,8 @@ namespace SpeedBracketsFakeAPI.Services
 					.OrderBy(n => n.updated)
 					.ToList();
 
-			response.Payload.Game = game.ToGameOnly();
-			response.Payload.Event = events[gameDelta.Value];
+			response.payload.game = game.ToGameOnly();			
+			response.payload._event = events[gameDelta.Value];
 
 			return response;
 		}
