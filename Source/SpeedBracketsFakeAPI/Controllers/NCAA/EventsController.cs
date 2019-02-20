@@ -36,7 +36,7 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 			timer.Start();			
 		}
 
-		[HttpGet("subscribea")]
+		[HttpGet("subscribe")]
 		public async Task Get()
 		{
 			var response = httpContextAccessor.HttpContext.Response;
@@ -81,7 +81,7 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 			}
 		}
 
-		[HttpGet("subscribe")]
+		[HttpGet("subscribe_v2")]
 		public HttpResponseMessage Subscribe(HttpRequestMessage request)
 		{
 			var response = request.CreateResponse();
