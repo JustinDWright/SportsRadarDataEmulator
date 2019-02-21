@@ -62,7 +62,6 @@ namespace SpeedBracketsFakeAPI.Services
 			var events = game.periods
 					.Where(n => n.events != null)
 					.SelectMany(n => n.events)
-					.OrderBy(n => n.updated)
 					.ToList();
 
 			var currentEvent = events[gameDelta.Value];
@@ -70,11 +69,12 @@ namespace SpeedBracketsFakeAPI.Services
 			var eventGame = game.ToGameOnly();
 
 			switch (currentEvent.event_type)
-			{
-				case "half":
-					eventGame.status = "halftime";					
-					break;
+			{				
 				case "endperiod":
+					if (currentEvent.description == "End of 1st Half.")
+					{
+						eventGame.status = "halftime";
+					}
 					if (currentEvent.description == "End of 2nd Half.")
 					{
 						eventGame.status = "complete";
