@@ -65,11 +65,28 @@ namespace SpeedBracketsFakeAPI.Services
 					.OrderBy(n => n.updated)
 					.ToList();
 
-			var current = events[gameDelta.Value];
-			var period = game.periods.Where(x => x.events.Any(e => e.id == current.id)).FirstOrDefault();
-			
-			response.payload.game = game.ToGameOnly();			
-			response.payload.Event = events[gameDelta.Value];
+			var currentEvent = events[gameDelta.Value];
+			var period = game.periods.Where(x => x.events.Any(e => e.id == currentEvent.id)).FirstOrDefault();
+			var eventGame = game.ToGameOnly();
+
+			switch (currentEvent.event_type)
+			{
+				case "half":
+					eventGame.status = "halftime";					
+					break;
+				case "endperiod":
+					if (currentEvent.description == "End of 2nd Half.")
+					{
+						eventGame.status = "complete";
+					}
+					break;
+				default:
+					eventGame.status = "inprogress";
+					break;
+			}
+
+			response.payload.game = eventGame;
+			response.payload.Event = currentEvent;
 			response.payload.Event.period = period.ToEventPeriod();
 
 			return response;

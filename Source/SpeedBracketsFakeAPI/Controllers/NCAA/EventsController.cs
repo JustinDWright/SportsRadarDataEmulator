@@ -54,29 +54,11 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 						return;
 					}
 
-					var gameData = gameService.GetGameData(game.id, gameDelta);
+					var gameData = gameService.GetGameData(game.id, gameDelta);					
 
-					switch (gameData.payload.Event.event_type)
+					if (gameData.payload.Event.statistics != null)
 					{
-						case "opentip":
-							gameData.payload.game.status = "inprogress";
-							break;
-						case "half":
-							gameData.payload.game.status = "halftime";
-							break;
-						case "endperiod":
-							if (gameData.payload.Event.description == "End of 2nd Half.")
-							{
-								gameData.payload.game.status = "complete";
-							}
-							break;
-					}
-
-					var statistics = gameData.payload.Event.statistics;
-
-					if (statistics != null)
-					{
-						foreach(var stat in statistics.Where(x => x.points > 0))
+						foreach(var stat in gameData.payload.Event.statistics.Where(x => x.points > 0))
 						{
 							if (stat.team.id == gameData.payload.game.home.id)
 							{
