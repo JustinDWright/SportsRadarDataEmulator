@@ -65,8 +65,12 @@ namespace SpeedBracketsFakeAPI.Services
 					.OrderBy(n => n.updated)
 					.ToList();
 
+			var current = events[gameDelta.Value];
+			var period = game.periods.Where(x => x.events.Any(e => e.id == current.id)).FirstOrDefault();
+			
 			response.payload.game = game.ToGameOnly();			
 			response.payload.Event = events[gameDelta.Value];
+			response.payload.Event.period = period.ToEventPeriod();
 
 			return response;
 		}		

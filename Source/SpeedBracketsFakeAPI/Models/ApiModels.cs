@@ -93,11 +93,21 @@ namespace SpeedBracketsFakeAPI.Models
 		public string id { get; set; }
 		public int number { get; set; }
 		public int sequence { get; set; }
-		public Scoring scoring { get; set; }		
 		public List<Event> events { get; set; }
 
 		// nfl
 		public List<Pbp> pbp { get; set; }
+
+		public Period ToEventPeriod()
+		{
+			return new Period
+			{
+				id = this.id,
+				number = this.number,
+				type = this.type,
+				sequence = this.sequence
+			};
+		}
 	}
 
 	// nfl
