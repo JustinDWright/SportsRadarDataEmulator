@@ -2,13 +2,14 @@ using System;
 
 namespace SpeedBracketsFakeAPI.Models
 {
-
 	public class Tournament
 	{
 		public string id { get; set; }
 		public string name { get; set; }
 		public string location { get; set; }
 		public string status { get; set; }
+		public DateTime start_date { get; set; }
+		public DateTime end_date { get; set; }
 		public League league { get; set; }
 		public Season season { get; set; }
 		public Round[] rounds { get; set; }

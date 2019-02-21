@@ -19,12 +19,13 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 		public SeasonsController(IHostingEnvironment environment)
 		{
 			this.environment = environment;
-			SeasonStandings = new List<Standings>();
+
+			LoadStandings();
 		}
 
 		public void LoadStandings()
 		{
-			LoadStandings();
+			SeasonStandings = new List<Standings>();
 
 			string filePath = Path.Combine(environment.ContentRootPath, "AppData", "NCAA", "Standings");
 			foreach (var file in Directory.GetFiles(filePath, "*.json"))

@@ -1,22 +1,21 @@
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SpeedBracketsFakeAPI.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 
-namespace SpeedBracketsFakeAPI.Controllers.NCAA
+namespace SpeedBracketsFakeAPI.Services
 {
-	[Route("api/v1/ncaa/[controller]")]
-	public class ScheduleController : Controller
+	public class ScheduleService
 	{
 		private readonly IHostingEnvironment environment;
 
 		public List<Schedule> Schedules { get; set; }
 
-		public ScheduleController(IHostingEnvironment environment)
+		public ScheduleService(IHostingEnvironment environment)
 		{
 			this.environment = environment;
 			LoadSchedules();
@@ -35,8 +34,7 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 			}
 		}
 
-		[HttpGet("{year}/{seasonType}/schedule.json")]
-		public Schedule GetTournamentSchedule(int year, string seasonType)
+		public Schedule GetSchedule(int year, string seasonType)
 		{
 			return Schedules.Where(x => x.season.year == year && x.season.type.Equals(seasonType, StringComparison.CurrentCultureIgnoreCase)).FirstOrDefault();
 		}

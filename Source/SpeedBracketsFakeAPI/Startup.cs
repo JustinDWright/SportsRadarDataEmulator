@@ -21,6 +21,7 @@ namespace SpeedBracketsFakeAPI
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddSingleton<GameService>();
+			services.AddSingleton<ScheduleService>();
 			services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 		}
