@@ -42,9 +42,15 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 		}
 
 		[HttpGet("{gameId}/boxscore.json")]
-		public GameStatistic GetGameBoxScore(string gameId)
+		public BoxScore GetGameBoxScore(string gameId)
 		{
-			return null;
+			return gameService.GetBoxScore(gameId);
+		}
+
+		[HttpGet("{gameId}/summary.json")]
+		public GameSummary GetGameSummary(string gameId)
+		{
+			return gameService.GetGameSummary(gameId);
 		}
 	}
 }

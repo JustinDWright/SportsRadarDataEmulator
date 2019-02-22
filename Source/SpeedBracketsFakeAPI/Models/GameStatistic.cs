@@ -93,7 +93,6 @@ namespace SpeedBracketsFakeAPI.Models
 		public int efficiency { get; set; }
 		public float efficiency_game_score { get; set; }
 		public Most_Unanswered most_unanswered { get; set; }
-		public StatPeriod[] periods { get; set; }
 	}
 
 	public class Most_Unanswered
@@ -101,61 +100,7 @@ namespace SpeedBracketsFakeAPI.Models
 		public int points { get; set; }
 		public int own_score { get; set; }
 		public int opp_score { get; set; }
-	}
-
-	public class StatPeriod
-	{
-		public string type { get; set; }
-		public string id { get; set; }
-		public int number { get; set; }
-		public int sequence { get; set; }
-		public string minutes { get; set; }
-		public int field_goals_made { get; set; }
-		public int field_goals_att { get; set; }
-		public float field_goals_pct { get; set; }
-		public int three_points_made { get; set; }
-		public int three_points_att { get; set; }
-		public float three_points_pct { get; set; }
-		public int two_points_made { get; set; }
-		public int two_points_att { get; set; }
-		public float two_points_pct { get; set; }
-		public int blocked_att { get; set; }
-		public int free_throws_made { get; set; }
-		public int free_throws_att { get; set; }
-		public float free_throws_pct { get; set; }
-		public int offensive_rebounds { get; set; }
-		public int defensive_rebounds { get; set; }
-		public int rebounds { get; set; }
-		public int assists { get; set; }
-		public int turnovers { get; set; }
-		public int steals { get; set; }
-		public int blocks { get; set; }
-		public float assists_turnover_ratio { get; set; }
-		public int personal_fouls { get; set; }
-		public int offensive_fouls { get; set; }
-		public int points { get; set; }
-		public int second_chance_pts { get; set; }
-		public int team_turnovers { get; set; }
-		public int points_off_turnovers { get; set; }
-		public int team_rebounds { get; set; }
-		public int flagrant_fouls { get; set; }
-		public int player_tech_fouls { get; set; }
-		public int team_tech_fouls { get; set; }
-		public int coach_tech_fouls { get; set; }
-		public int pls_min { get; set; }
-		public float effective_fg_pct { get; set; }
-		public int bench_points { get; set; }
-		public int points_in_paint { get; set; }
-		public int points_in_paint_att { get; set; }
-		public int points_in_paint_made { get; set; }
-		public int points_in_paint_pct { get; set; }
-		public float true_shooting_att { get; set; }
-		public float true_shooting_pct { get; set; }
-		public int biggest_lead { get; set; }
-		public int fouls_drawn { get; set; }
-		public int efficiency { get; set; }
-		public float efficiency_game_score { get; set; }
-	}
+	}	
 
 	public class StatScoring
 	{

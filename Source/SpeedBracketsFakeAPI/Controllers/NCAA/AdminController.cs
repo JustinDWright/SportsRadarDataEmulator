@@ -41,21 +41,44 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 				{
 					try
 					{
-						if (gameService.GameDataExists(game.id))
+						if (!gameService.GameDataExists(game.id))
 						{
 							await response.WriteAsync($"Game data for {game.id} exists. Skipping. {Environment.NewLine}", Encoding.UTF8);
 							response.Body.Flush();
-							continue;
+
+							var uri = $"http://api.sportradar.us/ncaamb/trial/v4/en/games/{game.id}/pbp.json?api_key=spv7c7wtayj2f3vktempjyd3";
+							var apiResponse = await httpClient.GetAsync(uri);
+							var gameData = await apiResponse.Content.ReadAsStringAsync();
+
+							gameService.SaveGame(game.id, gameData);							
+
+							await response.WriteAsync($"Game data for {game.id} saved to disk. {Environment.NewLine}", Encoding.UTF8);
+							response.Body.Flush();
 						}
 
-						var uri = $"http://api.sportradar.us/ncaamb/trial/v4/en/games/{game.id}/pbp.json?api_key=spv7c7wtayj2f3vktempjyd3";
-						var apiResponse = await httpClient.GetAsync(uri);
-						var gameData = await apiResponse.Content.ReadAsStringAsync();
+						if (!gameService.BoxScoreExists(game.id))
+						{
+							var uri = $"http://api.sportradar.us/ncaamb/trial/v4/en/games/{game.id}/boxscore.json?api_key=spv7c7wtayj2f3vktempjyd3";
+							var apiResponse = await httpClient.GetAsync(uri);
+							var boxScore = await apiResponse.Content.ReadAsStringAsync();
 
-						gameService.SaveGame(game.id, gameData);
+							gameService.SaveBoxScore(game.id, boxScore);
 
-						await response.WriteAsync($"Game data for {game.id} saved to disk. {Environment.NewLine}", Encoding.UTF8);
-						response.Body.Flush();
+							await response.WriteAsync($"Boxscore data for {game.id} saved to disk. {Environment.NewLine}", Encoding.UTF8);
+							response.Body.Flush();
+						}
+
+						if (!gameService.SummaryExists(game.id))
+						{
+							var uri = $"http://api.sportradar.us/ncaamb/trial/v4/en/games/{game.id}/summary.json?api_key=spv7c7wtayj2f3vktempjyd3";
+							var apiResponse = await httpClient.GetAsync(uri);
+							var summary = await apiResponse.Content.ReadAsStringAsync();
+
+							gameService.SaveSummary(game.id, summary);
+
+							await response.WriteAsync($"Summary data for {game.id} saved to disk. {Environment.NewLine}", Encoding.UTF8);
+							response.Body.Flush();
+						}
 					}
 					catch (Exception ex)
 					{
@@ -64,6 +87,9 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 					}
 				}
 			}
+
+			await response.WriteAsync($"Complete. {Environment.NewLine}", Encoding.UTF8);
+			response.Body.Flush();
 		}
 	}
 }

@@ -237,10 +237,15 @@ namespace SpeedBracketsFakeAPI.Models
 		public string name { get; set; }
 		public string market { get; set; }
 		public string id { get; set; }
+		public string alias {get; set;}
 		public int points { get; set; }
 		public int rank { get; set; }
+		public int seed { get; set; }
 		public bool double_bonus { get; set; }
 		public int remaining_timeouts { get; set; }
 		public List<Player> players { get; set; }
+		public Scoring[] scoring { get; set; }
+		public Leaders leaders { get; set; }
+		public Statistics statistics { get; set; }
 	}
 }
