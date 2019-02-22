@@ -9,9 +9,10 @@ using System.Linq;
 namespace SpeedBracketsFakeAPI.Services
 {
 	public class GameService
-	{
+	{		
 		private readonly IHostingEnvironment environment;
 
+		public string FilePath { get; set; }
 		public List<Game> CurrentGames { get; set; }
 		public List<GameStatistic> Statistics { get; set; }
 
@@ -26,8 +27,8 @@ namespace SpeedBracketsFakeAPI.Services
 		{
 			CurrentGames = new List<Game>();
 
-			string filePath = Path.Combine(environment.ContentRootPath, "AppData", "NCAA", "GameData");
-			foreach (var file in Directory.GetFiles(filePath, "*.json"))
+			FilePath = Path.Combine(environment.ContentRootPath, "AppData", "NCAA", "GameData");
+			foreach (var file in Directory.GetFiles(FilePath, "*.json"))
 			{
 				string jsonData = File.ReadAllText(file);
 
@@ -45,6 +46,21 @@ namespace SpeedBracketsFakeAPI.Services
 				string jsonData = File.ReadAllText(file);
 
 				Statistics.Add(JsonConvert.DeserializeObject<GameStatistic>(jsonData));
+			}
+		}
+
+		public bool GameDataExists(string gameId)
+		{
+			var filename = Path.Combine(FilePath, $"{gameId}.json");
+			return File.Exists(filename);
+		}
+
+		public void SaveGame(string gameId, string gameData)
+		{
+			var filename = Path.Combine(FilePath, $"{gameId}.json");
+			if (!GameDataExists(gameId))
+			{
+				File.WriteAllText(filename, gameData);
 			}
 		}
 

@@ -40,5 +40,11 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 		{
 			return scheduleService.GetSchedule(year, seasonType);
 		}
+
+		[HttpGet("{gameId}/boxscore.json")]
+		public GameStatistic GetGameBoxScore(string gameId)
+		{
+			return null;
+		}
 	}
 }
