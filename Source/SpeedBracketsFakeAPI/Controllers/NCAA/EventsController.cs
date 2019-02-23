@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SpeedBracketsFakeAPI.Services;
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -25,13 +26,12 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 		[HttpGet("subscribe")]
 		public async Task Get()
 		{
-			var response = httpContextAccessor.HttpContext.Response;
-
-			var homeScore = 0;
-			var awayScore = 0;
+			var response = httpContextAccessor.HttpContext.Response;			
 
 			foreach (var game in gameService.CurrentGames.OrderBy(g => g.scheduled))
 			{
+				var homeScore = 0;
+				var awayScore = 0;
 				for (var gameDelta = 0; gameDelta < game.periods.SelectMany(p => p.events).Count(); gameDelta++)			
 				{
 					var gameData = gameService.GetGameData(game.id, gameDelta);					
@@ -61,8 +61,16 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 					await response.WriteAsync(serializedGameData, Encoding.UTF8);
 
 					response.Body.Flush();
-					
-					await Task.Delay(5 * 1000);
+
+					if (Debugger.IsAttached)
+					{
+						await Task.Delay(1000);
+					}
+					else
+					{
+						await Task.Delay(5 * 1000);
+					}
+
 				}
 			}
 		}		
