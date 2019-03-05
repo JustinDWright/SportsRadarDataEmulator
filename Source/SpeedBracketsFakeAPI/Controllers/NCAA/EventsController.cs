@@ -32,6 +32,7 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 			{
 				var homeScore = 0;
 				var awayScore = 0;
+				var scheduled = DateTimeOffset.Now;
 				for (var gameDelta = 0; gameDelta < game.periods.SelectMany(p => p.events).Count(); gameDelta++)			
 				{
 					var gameData = gameService.GetGameData(game.id, gameDelta);					
@@ -51,6 +52,7 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 						}
 					}
 
+					gameData.payload.game.scheduled = scheduled;
 					gameData.payload.game.home.points = homeScore;
 					gameData.payload.game.away.points = awayScore;
 					gameData.payload.game.clock = gameData.payload.Event.clock;

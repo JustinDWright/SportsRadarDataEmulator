@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using SpeedBrackets.Data.ActivityData.Models;
 using SpeedBracketsFakeAPI.Models;
 using SpeedBracketsFakeAPI.Services;
 using System;
@@ -50,7 +51,12 @@ namespace SpeedBracketsFakeAPI.Controllers.NCAA
 							var apiResponse = await httpClient.GetAsync(uri);
 							var gameData = await apiResponse.Content.ReadAsStringAsync();
 
-							gameService.SaveGame(game.id, gameData);							
+							var gameObject = JsonConvert.DeserializeObject<Game>(gameData);
+
+							// update the game as if it hasn't take place yet.
+							gameObject.status = GameStatus.Scheduled.ToString();							
+
+							gameService.SaveGame(game.id, gameObject);							
 
 							await response.WriteAsync($"Game data for {game.id} saved to disk. {Environment.NewLine}", Encoding.UTF8);
 							response.Body.Flush();

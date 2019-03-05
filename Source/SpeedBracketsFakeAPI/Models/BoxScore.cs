@@ -10,7 +10,7 @@ namespace SpeedBracketsFakeAPI.Models
 		public string status { get; set; }
 		public string coverage { get; set; }
 		public bool neutral_site { get; set; }
-		public DateTime scheduled { get; set; }
+		public DateTimeOffset scheduled { get; set; }
 		public bool conference_game { get; set; }
 		public int attendance { get; set; }
 		public int lead_changes { get; set; }

@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Hosting;
 using Newtonsoft.Json;
+using SpeedBrackets.Data.ActivityData.Models;
 using SpeedBracketsFakeAPI.Models;
 using System.Collections.Generic;
 using System.IO;
@@ -87,12 +88,12 @@ namespace SpeedBracketsFakeAPI.Services
 			return File.Exists(filename);
 		}
 
-		public void SaveGame(string gameId, string gameData)
+		public void SaveGame(string gameId, Game gameData)
 		{
 			var filename = Path.Combine(GameFilePath, $"{gameId}.json");
 			if (!GameDataExists(gameId))
 			{
-				File.WriteAllText(filename, gameData);
+				File.WriteAllText(filename, JsonConvert.SerializeObject(gameData));
 			}
 		}
 
@@ -157,12 +158,20 @@ namespace SpeedBracketsFakeAPI.Services
 
 		public BoxScore GetBoxScore(string gameId)
 		{
-			return BoxScores.FirstOrDefault(x => x.id == gameId);
+			var game = GetGameData(gameId);
+			var boxScore = BoxScores.FirstOrDefault(x => x.id == gameId);
+			boxScore.scheduled = game.payload.game.scheduled;
+			boxScore.status = game.payload.game.status;
+			return boxScore;
 		}
 
 		public GameStatistic GetGameStatistics(string gameId)
 		{
-			return Statistics.FirstOrDefault(x => x.id == gameId);
+			var game = GetGameData(gameId);
+			var stats = Statistics.FirstOrDefault(x => x.id == gameId);
+			stats.scheduled = game.payload.game.scheduled;
+			stats.status = game.payload.game.status;
+			return stats;
 		}
 
 		public bool SummaryExists(string gameId)
@@ -182,7 +191,7 @@ namespace SpeedBracketsFakeAPI.Services
 
 		public GameSummary GetGameSummary(string gameId)
 		{
-			return Summaries.FirstOrDefault(x => x.id == gameId);
+			return Summaries.FirstOrDefault(x => x.id == gameId && CurrentGames.Any(g => g.id == gameId && g.status == GameStatus.Complete.ToString()));
 		}
 	}
 }

@@ -32,7 +32,7 @@ namespace SpeedBracketsFakeAPI.Controllers.NFL
 		{
 			var result = GetData();
 
-			DateTime now;
+			DateTimeOffset now;
 			if (gameDelta != null)
 				now = DateTime.Now.AddMinutes(gameDelta.Value * -1);
 			else
@@ -46,7 +46,7 @@ namespace SpeedBracketsFakeAPI.Controllers.NFL
 			return result;
 		}
 
-		private DateTime GetPlayClock(int gameLengthinSeconds, DateTime gameStart)
+		private DateTimeOffset GetPlayClock(int gameLengthinSeconds, DateTimeOffset gameStart)
 		{
 			// The modulus of the number of minutes since midnight and the game length
 			int secondsSinceMidnight = (int)(DateTime.Now - DateTime.Today).TotalSeconds;
@@ -56,8 +56,8 @@ namespace SpeedBracketsFakeAPI.Controllers.NFL
 
 		private int GetGameLength(Game result)
 		{
-			DateTime start = result.scheduled;
-			DateTime end = result.periods
+			DateTimeOffset start = result.scheduled;
+			DateTimeOffset end = result.periods
 				.Where(n => n.pbp != null)
 				.SelectMany(n => n.pbp)
 				.Where(n => n.events != null)
@@ -70,7 +70,7 @@ namespace SpeedBracketsFakeAPI.Controllers.NFL
 			return (int)duration.TotalSeconds + (10 * 60);
 		}
 
-		private static void RemoveFutureEvents(DateTime now, Game result)
+		private static void RemoveFutureEvents(DateTimeOffset now, Game result)
 		{
 			var periodRemoveList = new List<Period>();
 			for (int periodsIdx = 0; periodsIdx < result.periods.Count; periodsIdx++)
